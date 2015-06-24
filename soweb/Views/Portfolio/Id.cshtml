@@ -10,9 +10,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <h5 class="font-alt m-t-0">@Model.Selected.Id</h5>
-                <blockquote class="serif-quote font-serif">
-                    <p>@Model.Selected.Description</p>
-                </blockquote>
+                <p class="font-serif">@Model.Selected.Description</p>
             </div>
         </div>
     </div>
@@ -20,11 +18,11 @@
 
 <hr class="divider">
 
-<section class="module">
+<section class="related">
     <div class="container">
         <div class="row">
             <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">Related images</h2>
+                <h5 class="font-alt cinta">Related</h5>
             </div>
         </div>
         <div class="row">
@@ -37,7 +35,7 @@
                             <img src="/Assets/Images/@img.Name">
                             <div class="work-caption font-alt">
                                 <h3 class="work-title">@img.Id</h3>
-                                <div class="work-descr">@img.Description</div>
+                                @*<div class="work-descr">@img.Description</div>*@
                             </div>
                         </a>
                     </div>

@@ -2,8 +2,12 @@
     "Groups": [
         {
             "Images": [
-                { "Id": "Vasen", "Name": "1.png", "Description": "Desc", "Layout": "tall" },
-                { "Id": "Vasen 2", "Name": "5.png", "Description": "Desc", "Layout": "tall" }
+                { "Id": "Vasen1", "Name": "1.png", "Description": "Desc", "Layout": "tall" },
+                { "Id": "Vasen2", "Name": "1.png", "Description": "Desc", "Layout": "" },
+                { "Id": "Vasen3", "Name": "1.png", "Description": "Desc", "Layout": "tall" },
+                { "Id": "Vasen4", "Name": "1.png", "Description": "Desc", "Layout": "" },
+                { "Id": "Vasen5", "Name": "1.png", "Description": "Desc", "Layout": "tall" },
+                { "Id": "Vasen6", "Name": "5.png", "Description": "Desc", "Layout": "tall" }
             ]
         },
         {

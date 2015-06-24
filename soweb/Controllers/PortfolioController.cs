@@ -23,6 +23,11 @@ namespace Soweb.Controllers
                 .SelectMany(x => x.Images)
                 .FirstOrDefault(x => x.Id.Equals(id));
 
+            if (model.Selected == null)
+            {
+                return RedirectToAction("Index");
+            }
+
             model.Related = portfolio
                 .Groups
                 .First(g => g.Images.Any(image => image.Id == id))
@@ -35,9 +40,9 @@ namespace Soweb.Controllers
 
         private Portfolio GetPortfolio()
         {
-            var file = System.IO.Path.Combine(Server.MapPath("~/App_Data/"), "portfolio.json");
-            var json = System.IO.File.ReadAllText(file);
-            return JsonConvert.DeserializeObject<Portfolio>(json);
+            var path = System.IO.Path.Combine(Server.MapPath("~/App_Data/"), "portfolio.json");
+            var rawtext = System.IO.File.ReadAllText(path);
+            return JsonConvert.DeserializeObject<Portfolio>(rawtext);
         }
     }
 }

@@ -1172,6 +1172,12 @@ Navigation
 	color: #111;
 }
 
+.navbar-brand.so {
+    text-transform: none;
+    padding-top: 15px;
+    color: rgb(17, 17, 17);
+}
+
 .navbar-light .nav > li > a:focus,
 .navbar-light .nav > li > a:hover,
 .navbar-light .nav .open > a,
@@ -1372,9 +1378,17 @@ Modules
 	width: 100%;
 }
 
+.related {
+   	padding: 20px 0 50px 0;
+}
+
+.related h5 {
+    margin-bottom: 40px;
+}
+
 .module,
 .module-small {
-	padding: 140px 0;
+	padding: 140px 0 50px 0;
 	position: relative;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -1386,10 +1400,6 @@ Modules
 
 .module-small {
 	padding: 70px 0;
-}
-
-.navbar-custom + .module {
-	padding: 200px 0;
 }
 
 .navbar-custom + .module-small {
@@ -1407,7 +1417,7 @@ Modules
 	letter-spacing: 10px;
 	text-align: center;
 	font-size: 18px;
-	margin-bottom: 70px;
+	margin-bottom: 50px;
 }
 
 .module-subtitle {
@@ -1449,10 +1459,6 @@ Works grid
 .work-item.wide,
 .work-item.wide-tall {
 	width: 50%;
-}
-
-.show-more {
-	font-size: 11px !important;
 }
 
 /* ------------------------------------------------------------------
