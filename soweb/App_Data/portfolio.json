@@ -1,0 +1,17 @@
+﻿{
+    "Groups": [
+        {
+            "Images": [
+                { "Id": "Vasen", "Name": "1.png", "Description": "Desc", "Layout": "Tall" },
+                { "Id": "Vasen 2", "Name": "5.png", "Description": "Desc", "Layout": "Tall" }
+            ]
+        },
+        {
+            "Images": [
+                { "Id": "Fiskelinan", "Name": "2.png", "Description": "Desc", "Layout": "Tall" },
+                { "Id": "Bärplockaren", "Name": "3.png", "Description": "Desc", "Layout": "Tall" },
+                { "Id": "Raggaren", "Name": "4.png", "Description": "Desc", "Layout": "Tall" }
+            ]
+        }
+    ]
+}

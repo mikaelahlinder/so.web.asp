@@ -1,0 +1,27 @@
+﻿@model Soweb.Models.Portfolio
+
+<section id="portfolio" class="module">
+    <div class="container">
+        <div class="row">
+            <div id="works-grid" class="works-grid works-hover-w">
+                <div class="grid-sizer"></div>
+                
+                @foreach (var group in Model.Groups)
+                {
+                    foreach (var img in group.Images)
+                    {
+                        <div class="work-item @img.Layout">
+                            <a href="/Portfolio/Id/@img.Id">
+                                <img src="/Assets/Images/@img.Name">
+                                <div class="work-caption font-alt">
+                                    <h3 class="work-title">@img.Description</h3>
+                                </div>
+                            </a>
+                        </div>
+                    }
+                }
+
+            </div>
+        </div>
+    </div>
+</section>

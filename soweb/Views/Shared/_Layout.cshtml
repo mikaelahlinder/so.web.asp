@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sarah Otley">
+    <meta name="author" content="Sarah Otley">
+    <title>Sarah Otley</title>
+    <link href="/Assets/Styles/Imports.css" rel="stylesheet">
+    @Styles.Render("~/Assets/Styles/before")
+</head>
+<body>
+    
+    <div id="overlay-menu" class="overlay-menu">
+        <a href="#" id="overlay-menu-hide" class="navigation-hide"><i class="ion-close-round"></i></a>
+        <div class="overlay-menu-inner">
+            <nav class="overlay-menu-nav">
+                <ul id="nav">
+                    <li>@Html.ActionLink("Home", "Index", "Portfolio")</li>
+                    <li>@Html.ActionLink("About", "Index", "About")</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="overlay-navigation-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <p class="font-alt">© 2015 Sarah Otley, All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        
+        <nav class="navbar navbar-custom navbar-transparent navbar-light navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">
+                        SO
+                    </a>
+                </div>
+                <ul id="icons-navbar" class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" id="toggle-menu" class="show-overlay" title="Menu">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="extra-navbar nav navbar-nav navbar-right">
+                    <li>@Html.ActionLink("Home", "Index", "Portfolio")</li>
+                    <li>@Html.ActionLink("About", "Index", "About")</li>
+                </ul>
+            </div>
+        </nav>
+        
+        @RenderBody()
+
+    </div>   
+    @Scripts.Render("~/Assets/Scripts/after")
+</body>
+</html>

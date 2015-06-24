@@ -1,0 +1,47 @@
+﻿@model Soweb.Models.PortfolioDetail
+
+<section class="module">
+    <div class="container cinta">
+        <div class="row">
+            <div class="col-sm-12">
+                <p><img src="/Assets/Images/@Model.Selected.Name"></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <h5 class="font-alt m-t-0">@Model.Selected.Id</h5>
+                <blockquote class="serif-quote font-serif">
+                    <p>@Model.Selected.Description</p>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<hr class="divider">
+
+<section class="module">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Related images</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div id="works-grid" class="works-grid works-hover-w">
+                <div class="grid-sizer"></div>
+                @foreach (var img in Model.Related)
+                {
+                    <div class="work-item @img.Layout">
+                        <a href="/Portfolio/Id/@img.Id">
+                            <img src="/Assets/Images/@img.Name">
+                            <div class="work-caption font-alt">
+                                <h3 class="work-title">@img.Description</h3>
+                            </div>
+                        </a>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>
