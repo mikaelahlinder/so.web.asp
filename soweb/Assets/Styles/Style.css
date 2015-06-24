@@ -1465,7 +1465,14 @@ Works item
 	bottom: 30px;
 	right: 15px;
 	left: 15px;
-	overflow: hidden;
+    overflow: hidden;
+}
+
+.work-item a img {
+    margin: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
 }
 
 .work-item a:after {
@@ -1610,24 +1617,6 @@ Portfolio Single
 /* ------------------------------------------------------------------
 Blog
 ------------------------------------------------------------------- */
-
-/* Fix Firefox 3 column width bug */
-
-@-moz-document url-prefix() {
-
-	@media (min-width: 1310px) {
-		.posts-masonry .col-lg-4 {
-			width: 33.3333%;
-		}
-	}
-
-	@media (min-width: 992px) {
-		.posts-masonry .col-md-4 {
-			width: 33.3333%;
-		}
-	}
-
-}
 
 .post {
 	width: 100%;

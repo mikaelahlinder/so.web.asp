@@ -6,7 +6,7 @@
 
         var overlayMenu = $('#overlay-menu'),
             navbar = $('.navbar-custom'),
-            worksgrid = $('#works-grid');
+            worksgrid = $('.works-grid');
 
         var isNavbarTransparent = navbar.length > 0 && navbar.hasClass('navbar-transparent');
         $(window).scroll(function () {
@@ -58,7 +58,7 @@
 				itemWidht = $('.grid-sizer').width(),
 				itemHeight = Math.floor(itemWidht * 0.95),
 				itemTallHeight = itemHeight * 2;
-
+            
             if (windowWidth > 500) {
                 $('.work-item', worksgrid).each(function () {
                     if ($(this).hasClass('tall')) {
