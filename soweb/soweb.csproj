@@ -469,6 +469,7 @@
     <Content Include="Assets\Styles\Imports.css" />
     <Content Include="Assets\Styles\Ionicons.css" />
     <Content Include="Assets\Styles\Style.css" />
+    <Content Include="favico.ico" />
     <Content Include="packages.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />

@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Sarah Otley">
     <meta name="author" content="Sarah Otley">
+    <link rel="icon" type="image/png" href="~/favico.ico" />
     <title>Sarah Otley</title>
     <link href="/Assets/Styles/Imports.css" rel="stylesheet">
     @Styles.Render("~/Assets/Styles/before")
 </head>
 <body>
-    
     @*<div id="overlay-menu" class="overlay-menu">
         <a href="#" id="overlay-menu-hide" class="navigation-hide"><i class="ion-close-round"></i></a>
         <div class="overlay-menu-inner">
@@ -31,9 +31,7 @@
             </div>
         </div>
     </div>*@
-
     <div class="wrapper">
-        
         <nav class="navbar navbar-custom navbar-transparent navbar-light navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header font-serif">
@@ -54,9 +52,7 @@
                 </ul>
             </div>
         </nav>
-        
         @RenderBody()
-
     </div>   
     @Scripts.Render("~/Assets/Scripts/after")
 </body>
