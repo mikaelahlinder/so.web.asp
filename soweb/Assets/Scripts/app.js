@@ -75,15 +75,11 @@
                         });
                     } else if ($(this).hasClass('wide')) {
                         $(this).css({
-                            height: itemHeight
+                            height: itemWidht * 0.7
                         });
                     } else if ($(this).hasClass('wide-tall')) {
                         $(this).css({
-                            height: itemTallHeight
-                        });
-                    } else if ($(this).hasClass('mega')) {
-                        $(this).css({
-                            height: itemTallHeight * 1.5
+                            height: itemTallHeight * 1.4
                         });
                     } else {
                         $(this).css({
