@@ -2,6 +2,14 @@
 
     "use strict";
 
+    $(window).load(function () {
+        $('.page-loader').fadeOut('slow');
+        $('.works-grid').find('img').each(function() {
+            var imgClass = (this.width / this.height > 1) ? 'wide' : 'tall';
+            $(this).addClass(imgClass);
+        });
+    });
+
     $(document).ready(function () {
 
         var overlayMenu = $('#overlay-menu'),

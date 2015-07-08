@@ -9,8 +9,8 @@
         },
         {
             "Images": [
-                { "Id": "Hus 1", "Name": "Hus-011-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "wide-tall" },
-                { "Id": "Hus 2", "Name": "Hus-021-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "wide-tall" },
+                { "Id": "Hus 1", "Name": "Hus-011-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "" },
+                { "Id": "Hus 2", "Name": "Hus-021-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "" },
                 { "Id": "Hus 3", "Name": "Hus-03.jpg", "Description": "Here goes my super informative description", "Layout": "wide-tall" },
                 { "Id": "Hus 4", "Name": "Hus-04.jpg", "Description": "Here goes my super informative description", "Layout": "wide-tall" }
             ]
@@ -38,16 +38,16 @@
                 { "Id": "Dans-på-Bed-of-Roses", "Name": "Dans-på-Bed-of-Roses.jpg", "Description": "Here goes my super informative description", "Layout": "" },
                 { "Id": "Lotus Eaters Recovered", "Name": "Lotus-Eaters-Recovered.jpg", "Description": "Here goes my super informative description", "Layout": "" },
                 { "Id": "Balloons Flowers", "Name": "Balloons-Flowers.jpg", "Description": "Here goes my super informative description", "Layout": "" },
-                { "Id": "Growing nails", "Name": "Growing-nails.jpg", "Description": "Here goes my super informative description", "Layout": "stamp" },
+                { "Id": "Growing nails", "Name": "Growing-nails.jpg", "Description": "Here goes my super informative description", "Layout": "" },
                 { "Id": "TG", "Name": "TG.jpg", "Description": "Here goes my super informative description", "Layout": "" },
                 { "Id": "STHLM", "Name": "STHLM-680x1024.jpg", "Description": "Here goes my super informative description", "Layout": "" },
                 { "Id": "Lake with Ice", "Name": "Lake-with-Ice.jpg", "Description": "Here goes my super informative description", "Layout": "" },
                 { "Id": "Portrait 1", "Name": "Portrait-01.jpg", "Description": "Here goes my super informative description", "Layout": "" },
                 { "Id": "Portrait 2", "Name": "Portrait-02.jpg", "Description": "Here goes my super informative description", "Layout": "" },
                 { "Id": "Portrait 3", "Name": "Portrait-03.jpg", "Description": "Here goes my super informative description", "Layout": "" },
-                { "Id": "Girl Cape", "Name": "Girl-Cape.jpg", "Description": "Here goes my super informative description", "Layout": "right" },
-                { "Id": "Girl Skirt", "Name": "Girl-Skirt.jpg", "Description": "Here goes my super informative description", "Layout": "right" },
-                { "Id": "Girl Dots", "Name": "Girl-Dots.jpg", "Description": "Here goes my super informative description", "Layout": "right" },
+                { "Id": "Girl Cape", "Name": "Girl-Cape.jpg", "Description": "Here goes my super informative description", "Layout": "" },
+                { "Id": "Girl Skirt", "Name": "Girl-Skirt.jpg", "Description": "Here goes my super informative description", "Layout": "" },
+                { "Id": "Girl Dots", "Name": "Girl-Dots.jpg", "Description": "Here goes my super informative description", "Layout": "" },
                 { "Id": "Interior Trends", "Name": "Interior-Trends.jpg", "Description": "Here goes my super informative description", "Layout": "" },
                 { "Id": "Interior Wishlist", "Name": "Interior-Wishlist.jpg", "Description": "Here goes my super informative description", "Layout": "" },
                 { "Id": "Interior Coral", "Name": "Interior-Coral.jpg", "Description": "Here goes my super informative description", "Layout": "" },
@@ -80,9 +80,9 @@
         },
         {
             "Images": [
-                { "Id": "Röd 1", "Name": "2.png", "Description": "Here goes my super informative description", "Layout": "" },
-                { "Id": "Röd 2", "Name": "3.png", "Description": "Here goes my super informative description", "Layout": "" },
-                { "Id": "Röd 3", "Name": "4.png", "Description": "Here goes my super informative description", "Layout": "" }
+                { "Id": "Röd 1", "Name": "2.png", "Description": "Here goes my super informative description", "Layout": "wide-tall" },
+                { "Id": "Röd 2", "Name": "3.png", "Description": "Here goes my super informative description", "Layout": "wide" },
+                { "Id": "Röd 3", "Name": "4.png", "Description": "Here goes my super informative description", "Layout": "wide" }
             ]
         },
         {

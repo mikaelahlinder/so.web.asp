@@ -10,8 +10,12 @@
     <link href="/Assets/Styles/Imports.css" rel="stylesheet">
     @Styles.Render("~/Assets/Styles/before")
 </head>
-<body>
-    @*<div id="overlay-menu" class="overlay-menu">
+    <body>
+        
+        <div class="page-loader">
+            <div class="loader">Loading...</div>
+        </div>
+        @*<div id="overlay-menu" class="overlay-menu">
         <a href="#" id="overlay-menu-hide" class="navigation-hide"><i class="ion-close-round"></i></a>
         <div class="overlay-menu-inner">
             <nav class="overlay-menu-nav">
@@ -31,13 +35,13 @@
             </div>
         </div>
     </div>*@
-    <div class="wrapper">
-        <nav class="navbar navbar-custom navbar-transparent navbar-light navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header font-serif">
-                    @Html.ActionLink("Sarah Otley", "Index", "Portfolio", null, new { @class = "navbar-brand so" })
-                </div>
-                @*<ul id="icons-navbar" class="nav navbar-nav navbar-right">
+        <div class="wrapper">
+            <nav class="navbar navbar-custom navbar-transparent navbar-light navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header font-serif">
+                        @Html.ActionLink("Sarah Otley", "Index", "Portfolio", null, new { @class = "navbar-brand so" })
+                    </div>
+                    @*<ul id="icons-navbar" class="nav navbar-nav navbar-right">
                     <li>
                         <a href="#" id="toggle-menu" class="show-overlay" title="Menu">
                             <span class="icon-bar"></span>
@@ -46,14 +50,14 @@
                         </a>
                     </li>
                 </ul>*@
-                <ul class="extra-navbar nav navbar-nav navbar-right">
-                    @*<li>@Html.ActionLink("Home", "Index", "Portfolio")</li>*@
-                    <li>@Html.ActionLink("oh hello", "Index", "About")</li>
-                </ul>
-            </div>
-        </nav>
-        @RenderBody()
-    </div>   
-    @Scripts.Render("~/Assets/Scripts/after")
-</body>
+                    <ul class="extra-navbar nav navbar-nav navbar-right">
+                        @*<li>@Html.ActionLink("Home", "Index", "Portfolio")</li>*@
+                        <li>@Html.ActionLink("oh hello", "Index", "About")</li>
+                    </ul>
+                </div>
+            </nav>
+            @RenderBody()
+        </div>   
+        @Scripts.Render("~/Assets/Scripts/after")
+    </body>
 </html>
