@@ -9,8 +9,8 @@
         </div>
         <div class="row">
             <div class="col-sm-12">
-                <h5 class="font-alt m-t-0">@Model.Selected.Id</h5>
-                <p class="font-serif">@Model.Selected.Description</p>
+                <h5 class="font-play font-huge font-uppercase">@Model.Selected.Id</h5>
+                <h4 class="font-serif">@Model.Selected.Description</h4>
             </div>
         </div>
     </div>
@@ -18,29 +18,32 @@
 
 <hr class="divider">
 
-<section class="related">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6 col-sm-offset-3">
-                <h5 class="font-alt cinta">Related</h5>
+@if (Model.Related.Any())
+{
+    <section class="related">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3">
+                    <h5 class="font-play font-medium font-uppercase cinta">Related</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div id="works-grid" class="works-grid works-hover-w">
+                    <div class="grid-sizer"></div>
+                    @foreach (var img in Model.Related)
+                    {
+                        <div class="work-item">
+                            <a href="/Portfolio/Detail/@img.Id">
+                                <img src="/Assets/Images/@img.Name">
+                                <div class="work-caption">
+                                    <h3 class="work-title">@img.Id</h3>
+                                    <div class="work-descr">@img.Description</div>
+                                </div>
+                            </a>
+                        </div>
+                    }
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div id="works-grid" class="works-grid works-hover-w">
-                <div class="grid-sizer"></div>
-                @foreach (var img in Model.Related)
-                {
-                    <div class="work-item">
-                        <a href="/Portfolio/Detail/@img.Id">
-                            <img src="/Assets/Images/@img.Name">
-                            <div class="work-caption font-alt">
-                                <h3 class="work-title">@img.Id</h3>
-                                @*<div class="work-descr">@img.Description</div>*@
-                            </div>
-                        </a>
-                    </div>
-                }
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
+}

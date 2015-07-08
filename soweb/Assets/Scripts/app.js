@@ -73,6 +73,10 @@
                         $(this).css({
                             height: itemTallHeight
                         });
+                    } else if ($(this).hasClass('mega')) {
+                        $(this).css({
+                            height: itemTallHeight * 1.5
+                        });
                     } else {
                         $(this).css({
                             height: itemHeight
@@ -104,10 +108,11 @@
             worksgrid.imagesLoaded(function () {
                 worksgrid.isotope({
                     layoutMode: 'packery',
+                    percentPosition: true,
                     itemSelector: '.work-item',
                     transitionDuration: '0.3s',
                     packery: {
-                        columnWidth: '.grid-sizer',
+                        columnWidth: '.grid-sizer'
                     },
                 });
             });

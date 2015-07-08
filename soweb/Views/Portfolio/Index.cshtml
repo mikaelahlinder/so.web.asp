@@ -4,21 +4,21 @@
     <div class="container">
         @foreach (var group in Model.Groups)
         {
-            <div class="row">
+            <div class="row row-spacer">
                 <div id="works-grid" class="works-grid works-hover-w">
                     <div class="grid-sizer"></div>
-                        @foreach (var img in group.Images)
-                        {
-                            <div class="work-item @img.Layout">
-                                <a href="/Portfolio/Detail/@img.Id">
-                                    <img src="/Assets/Images/@img.Name">
-                                    <div class="work-caption font-alt">
-                                        <h3 class="work-title">@img.Id</h3>
-                                        @*<div class="work-descr">@img.Description</div>*@
-                                    </div>
-                                </a>
-                            </div>
-                        }
+                    @foreach (var img in group.Images)
+                    {
+                        <div class="work-item  @img.Layout">
+                            <a href="/Portfolio/Detail/@img.Id">
+                                <img src="/Assets/Images/@img.Name">
+                                <div class="work-caption">
+                                    <h3 class="work-title">@img.Id</h3>
+                                    <div class="work-descr">@img.Description</div>
+                                </div>
+                            </a>
+                        </div>
+                    }
                 </div>
             </div>
         }
