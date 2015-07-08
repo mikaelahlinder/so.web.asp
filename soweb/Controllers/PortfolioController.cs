@@ -13,7 +13,7 @@ namespace Soweb.Controllers
             return View(model);
         }
 
-        public ActionResult Id(string id)
+        public ActionResult Detail(string id)
         {
             var portfolio = GetPortfolio();
             var model = new PortfolioDetail();

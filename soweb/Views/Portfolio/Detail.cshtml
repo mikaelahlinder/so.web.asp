@@ -30,8 +30,8 @@
                 <div class="grid-sizer"></div>
                 @foreach (var img in Model.Related)
                 {
-                    <div class="work-item @img.Layout">
-                        <a href="/Portfolio/Id/@img.Id">
+                    <div class="work-item">
+                        <a href="/Portfolio/Detail/@img.Id">
                             <img src="/Assets/Images/@img.Name">
                             <div class="work-caption font-alt">
                                 <h3 class="work-title">@img.Id</h3>
