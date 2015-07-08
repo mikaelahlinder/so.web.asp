@@ -2,17 +2,17 @@
     "Groups": [
         {
             "Images": [
-                { "Id": "Vasen1", "Name": "1.png", "Description": "Desc", "Layout": "tall" },
+                { "Id": "Vasen1", "Name": "1.png", "Description": "Desc", "Layout": "" },
                 { "Id": "Vasen2", "Name": "1.png", "Description": "Desc", "Layout": "" },
-                { "Id": "Vasen3", "Name": "1.png", "Description": "Desc", "Layout": "tall" },
+                { "Id": "Vasen3", "Name": "1.png", "Description": "Desc", "Layout": "" },
                 { "Id": "Vasen4", "Name": "1.png", "Description": "Desc", "Layout": "" },
-                { "Id": "Vasen5", "Name": "1.png", "Description": "Desc", "Layout": "tall" },
-                { "Id": "Vasen6", "Name": "5.png", "Description": "Desc", "Layout": "tall" }
+                { "Id": "Vasen5", "Name": "1.png", "Description": "Desc", "Layout": "" },
+                { "Id": "Vasen6", "Name": "5.png", "Description": "Desc", "Layout": "" }
             ]
         },
         {
             "Images": [
-                { "Id": "Fiskelinan", "Name": "2.png", "Description": "Desc", "Layout": "" },
+                { "Id": "Fiskelinan", "Name": "2.png", "Description": "Desc", "Layout": "wide-tall" },
                 { "Id": "Bärplockaren", "Name": "3.png", "Description": "Desc", "Layout": "" },
                 { "Id": "Raggaren", "Name": "4.png", "Description": "Desc", "Layout": "" }
             ]
