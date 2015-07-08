@@ -183,6 +183,7 @@ blockquote {
 
 .font-huge {
     font-size: 60px;
+    word-wrap: break-word;
 }
 
 .font-medium {
@@ -2169,6 +2170,11 @@ Responsive Media Querries
 @media (max-width: 767px) {
 
     /* Hero captions */
+
+    .font-huge {
+        font-size: 40px;
+        word-wrap: break-word;
+    }
 
     .mh-line-size-1 {
         letter-spacing: 24px;
