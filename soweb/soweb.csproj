@@ -465,11 +465,13 @@
     <Content Include="Assets\Scripts\Libs\isotope.pkgd.min.js" />
     <Content Include="Assets\Scripts\Libs\jquery-2.1.3.min.js" />
     <Content Include="Assets\Scripts\Libs\jquery.easing.1.3.js" />
+    <Content Include="Assets\Scripts\Libs\masonry.pkgd.min.js" />
     <Content Include="Assets\Scripts\Libs\packery-mode.pkgd.min.js" />
     <Content Include="Assets\Scripts\Libs\smoothscroll.js" />
     <Content Include="Assets\Styles\Bootstrap.css" />
     <Content Include="Assets\Styles\Imports.css" />
     <Content Include="Assets\Styles\Ionicons.css" />
+    <Content Include="Assets\Styles\So.css" />
     <Content Include="Assets\Styles\Style.css" />
     <Content Include="favico.ico" />
     <Content Include="packages.config" />
@@ -528,7 +530,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>12965</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>

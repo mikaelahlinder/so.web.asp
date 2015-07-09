@@ -19,8 +19,8 @@
         {
             "Images": [
                 { "Id": "2", "Name": "2.png", "Description": "Here goes my super informative description", "Layout": "lg" },
-                { "Id": "3", "Name": "3.png", "Description": "Here goes my super informative description", "Layout": "sm" },
-                { "Id": "4", "Name": "4.png", "Description": "Here goes my super informative description", "Layout": "sm" }
+                { "Id": "3", "Name": "3.png", "Description": "Here goes my super informative description", "Layout": "md" },
+                { "Id": "4", "Name": "4.png", "Description": "Here goes my super informative description", "Layout": "md" }
             ]
         },
         {
@@ -32,14 +32,14 @@
         {
             "Images": [
                 { "Id": "Streetstyle", "Name": "Streetstyle-copy-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "md" },
-                { "Id": "STHLM", "Name": "STHLM-680x1024.jpg", "Description": "Here goes my super informative description", "Layout": "md" },
+                { "Id": "STHLM", "Name": "STHLM-680x1024.jpg", "Description": "Here goes my super informative description", "Layout": "lg" },
                 { "Id": "Streetstyle Killar", "Name": "Streetstyle-Killar.jpg", "Description": "Here goes my super informative description", "Layout": "lg" }
             ]
         },
         {
             "Images": [
                 { "Id": "Portrait 1", "Name": "Portrait-01.jpg", "Description": "Here goes my super informative description", "Layout": "sm" },
-                { "Id": "Portrait 2", "Name": "Portrait-02.jpg", "Description": "Here goes my super informative description", "Layout": "sm" },
+                { "Id": "Portrait 2", "Name": "Portrait-02.jpg", "Description": "Here goes my super informative description", "Layout": "lg" },
                 { "Id": "Portrait 3", "Name": "Portrait-03.jpg", "Description": "Here goes my super informative description", "Layout": "sm" }
             ]
         },
