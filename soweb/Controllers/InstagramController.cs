@@ -10,6 +10,7 @@ namespace Soweb.Controllers
             return View();
         }
 
+        [OutputCache(Duration = 360)]
         public JsonResult GetImages()
         {
             using (var client = new WebClient())
