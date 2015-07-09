@@ -1,0 +1,26 @@
+﻿<section class="module">
+    <div class="container cinta">
+        <div class="row">
+            <div class="col-sm-12">
+                <a href="https://instagram.com/sarahotley" target="_blank">
+                    <img src="/Assets/Images/insta_profile.jpg" class="img-circle" />
+                </a>
+                <div class="instagram-feed">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+@section OptionalScripts
+{
+    <script type="text/javascript">
+        $.getJSON('/Instagram/GetImages', function (data) {
+            var json = $.parseJSON(data);
+            $.each(json.data, function (index, value) {
+                if (value.tags.length == 0)
+                    return;
+                $('.instagram-feed').append('<h4 class="font-serif"><a target="_blank" href="' + value.link + '">' + value.tags.join(", ") + '</a></h4>');
+            });
+        });
+    </script>
+}

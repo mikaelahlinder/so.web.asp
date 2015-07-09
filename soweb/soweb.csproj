@@ -281,6 +281,7 @@
     <Content Include="Assets\Images\Hus-04-212x300.jpg" />
     <Content Include="Assets\Images\Hus-04-724x1024.jpg" />
     <Content Include="Assets\Images\Hus-04.jpg" />
+    <Content Include="Assets\Images\insta_profile.jpg" />
     <Content Include="Assets\Images\Interior-Coral-145x145.jpg" />
     <Content Include="Assets\Images\Interior-Coral-212x300.jpg" />
     <Content Include="Assets\Images\Interior-Coral-724x1024.jpg" />
@@ -404,6 +405,7 @@
     <Content Include="Assets\Images\Sommar-212x300.jpg" />
     <Content Include="Assets\Images\Sommar-724x1024.jpg" />
     <Content Include="Assets\Images\Sommar.jpg" />
+    <Content Include="Assets\Images\so_logo.png" />
     <Content Include="Assets\Images\STHLM-145x145.jpg" />
     <Content Include="Assets\Images\STHLM-199x300.jpg" />
     <Content Include="Assets\Images\STHLM-680x1024.jpg" />
@@ -486,6 +488,7 @@
     <Content Include="Assets\Fonts\ionicons.ttf" />
     <Content Include="Assets\Fonts\ionicons.woff" />
     <None Include="Properties\PublishProfiles\Binero.pubxml" />
+    <Content Include="Views\Instagram\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -502,6 +505,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AboutController.cs" />
+    <Compile Include="Controllers\InstagramController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

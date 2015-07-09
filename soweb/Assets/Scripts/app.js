@@ -2,126 +2,42 @@
 
     "use strict";
 
+    function imageSizer(worksgrid) {
+        $('.work-item', worksgrid).each(function () {
+            var $this = $(this);
+            var img = $this.find('img');
+            var isPortrait = img.width() < img.height();
+            var thisWidth = $this.width() * 0.95;
+
+            $this.css({
+                height: isPortrait ? thisWidth * 1.4 : thisWidth * 0.7
+            });
+        });
+
+        worksgrid.imagesLoaded(function () {
+            worksgrid.isotope({
+                layoutMode: 'packery',
+                itemSelector: '.work-item',
+                transitionDuration: '0.3s',
+                packery: {
+                },
+            });
+        });
+    }
+
     $(window).load(function () {
         $('.page-loader').fadeOut('slow');
-        $('.works-grid').find('img').each(function() {
-            var imgClass = (this.width / this.height > 1) ? 'wide' : 'tall';
-            $(this).addClass(imgClass);
-        });
+        imageSizer($('.works-grid'));
     });
 
     $(document).ready(function () {
-
-        var overlayMenu = $('#overlay-menu'),
-            navbar = $('.navbar-custom'),
-            worksgrid = $('.works-grid');
-
+        var navbar = $('.navbar-custom');
         var isNavbarTransparent = navbar.length > 0 && navbar.hasClass('navbar-transparent');
         $(window).scroll(function () {
             if (navbar.length > 0 && isNavbarTransparent !== false) {
                 navbar.toggleClass('navbar-transparent', $(window).scrollTop() < 5);
             }
         }).scroll();
-
-
-        $('#toggle-menu').on('click', function () {
-            showMenu();
-            $('body').addClass('aux-navigation-active');
-            return false;
-        });
-
-        $('#overlay-menu-hide').on('click', function () {
-            hideMenu();
-            $('body').removeClass('aux-navigation-active');
-            return false;
-        });
-
-        $(window).keydown(function (e) {
-            if (overlayMenu.hasClass('active')) {
-                if (e.which === 27) {
-                    hideMenu();
-                }
-            }
-        });
-
-        function showMenu() {
-            navbar.animate({ 'opacity': 0, 'top': -80 }, {
-                duration: 150,
-                easing: 'easeInOutQuart'
-            });
-            overlayMenu.addClass('active');
-        }
-
-        function hideMenu() {
-            navbar.animate({ 'opacity': 1, 'top': 0 }, {
-                duration: 150,
-                easing: 'easeInOutQuart'
-            });
-            overlayMenu.removeClass('active');
-        }
-
-        $(window).on('resize', function () {
-
-            var windowWidth = Math.max($(window).width(), window.innerWidth),
-				itemWidht = $('.grid-sizer').width(),
-				itemHeight = Math.floor(itemWidht * 0.95),
-				itemTallHeight = itemHeight * 2;
-            
-            if (windowWidth > 500) {
-                $('.work-item', worksgrid).each(function () {
-                    if ($(this).hasClass('tall')) {
-                        $(this).css({
-                            height: itemTallHeight
-                        });
-                    } else if ($(this).hasClass('wide')) {
-                        $(this).css({
-                            height: itemWidht * 0.7
-                        });
-                    } else if ($(this).hasClass('wide-tall')) {
-                        $(this).css({
-                            height: itemTallHeight * 1.4
-                        });
-                    } else {
-                        $(this).css({
-                            height: itemHeight
-                        });
-                    }
-                });
-            } else {
-                $('.work-item', worksgrid).each(function () {
-                    if ($(this).hasClass('tall')) {
-                        $(this).css({
-                            height: itemTallHeight
-                        });
-                    } else if ($(this).hasClass('wide')) {
-                        $(this).css({
-                            height: itemHeight / 2
-                        });
-                    } else if ($(this).hasClass('wide-tall')) {
-                        $(this).css({
-                            height: itemHeight
-                        });
-                    } else {
-                        $(this).css({
-                            height: itemHeight
-                        });
-                    }
-                });
-            }
-
-            worksgrid.imagesLoaded(function () {
-                worksgrid.isotope({
-                    layoutMode: 'packery',
-                    percentPosition: true,
-                    itemSelector: '.work-item',
-                    transitionDuration: '0.3s',
-                    packery: {
-                        columnWidth: '.grid-sizer'
-                    },
-                });
-            });
-
-        }).resize();
+        $(window).on('resize', imageSizer($('.works-grid')));
     });
-
 })(jQuery);

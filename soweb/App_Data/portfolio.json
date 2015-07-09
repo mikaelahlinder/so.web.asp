@@ -2,64 +2,50 @@
     "Groups": [
         {
             "Images": [
-                { "Id": "Rödbeta", "Name": "rödbeta-723x1024.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "Layout": "wide-tall" },
-                { "Id": "Pistache", "Name": "pistache-sml-785x553.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "Layout": "wide-tall" },
-                { "Id": "Vanilj", "Name": "vanilj-785x553.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "Layout": "wide-tall" },
-                { "Id": "Hallon Blåbär", "Name": "hallon-blåbär-723x1024.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "Layout": "wide-tall" }
+                { "Id": "Rödbeta", "Name": "rödbeta-723x1024.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "Layout": "md" },
+                { "Id": "Pistache", "Name": "pistache-sml-785x553.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "Layout": "md" },
+                { "Id": "Vanilj", "Name": "vanilj-785x553.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "Layout": "sm" },
+                { "Id": "Hallon Blåbär", "Name": "hallon-blåbär-723x1024.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "Layout": "" }
             ]
         },
         {
             "Images": [
-                { "Id": "Hus 1", "Name": "Hus-011-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "" },
-                { "Id": "Hus 3", "Name": "Hus-03.jpg", "Description": "Here goes my super informative description", "Layout": "wide-tall" },
-                { "Id": "Hus 2", "Name": "Hus-021-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "" },
-                { "Id": "Hus 4", "Name": "Hus-04.jpg", "Description": "Here goes my super informative description", "Layout": "tall" }
+                { "Id": "Hus 1", "Name": "Hus-011-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "sm" },
+                { "Id": "Hus 3", "Name": "Hus-03.jpg", "Description": "Here goes my super informative description", "Layout": "lg" },
+                { "Id": "Hus 2", "Name": "Hus-021-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "xs" },
+                { "Id": "Hus 4", "Name": "Hus-04.jpg", "Description": "Here goes my super informative description", "Layout": "" }
             ]
         },
         {
             "Images": [
-                { "Id": "2", "Name": "2.png", "Description": "Here goes my super informative description", "Layout": "wide-tall" },
-                { "Id": "3", "Name": "3.png", "Description": "Here goes my super informative description", "Layout": "wide" },
-                { "Id": "4", "Name": "4.png", "Description": "Here goes my super informative description", "Layout": "wide-tall" }
+                { "Id": "2", "Name": "2.png", "Description": "Here goes my super informative description", "Layout": "lg" },
+                { "Id": "3", "Name": "3.png", "Description": "Here goes my super informative description", "Layout": "sm" },
+                { "Id": "4", "Name": "4.png", "Description": "Here goes my super informative description", "Layout": "sm" }
             ]
         },
         {
             "Images": [
-                { "Id": "Koloniträdgård", "Name": "Koloniträdgård1-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "wide-tall" },
-                { "Id": "Balloons Stugas", "Name": "Balloons-Stugas-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "wide-tall" }
+                { "Id": "Koloniträdgård", "Name": "Koloniträdgård1-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "lg" },
+                { "Id": "Balloons Stugas", "Name": "Balloons-Stugas-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "sm" }
             ]
         },
         {
             "Images": [
-                { "Id": "Streetstyle", "Name": "Streetstyle-copy-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "wide-tall" },
-                { "Id": "STHLM", "Name": "STHLM-680x1024.jpg", "Description": "Here goes my super informative description", "Layout": " wide-tall" },
-                { "Id": "Streetstyle Killar", "Name": "Streetstyle-Killar.jpg", "Description": "Here goes my super informative description", "Layout": "wide-tall" }
+                { "Id": "Streetstyle", "Name": "Streetstyle-copy-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "md" },
+                { "Id": "STHLM", "Name": "STHLM-680x1024.jpg", "Description": "Here goes my super informative description", "Layout": "md" },
+                { "Id": "Streetstyle Killar", "Name": "Streetstyle-Killar.jpg", "Description": "Here goes my super informative description", "Layout": "lg" }
             ]
         },
         {
             "Images": [
-                { "Id": "2", "Name": "2.png", "Description": "Here goes my super informative description", "Layout": "wide-tall" },
-                { "Id": "3", "Name": "3.png", "Description": "Here goes my super informative description", "Layout": "wide" },
-                { "Id": "4", "Name": "4.png", "Description": "Here goes my super informative description", "Layout": "wide-tall" }
+                { "Id": "Portrait 1", "Name": "Portrait-01.jpg", "Description": "Here goes my super informative description", "Layout": "sm" },
+                { "Id": "Portrait 2", "Name": "Portrait-02.jpg", "Description": "Here goes my super informative description", "Layout": "sm" },
+                { "Id": "Portrait 3", "Name": "Portrait-03.jpg", "Description": "Here goes my super informative description", "Layout": "sm" }
             ]
         },
         {
             "Images": [
-                { "Id": "Portrait 1", "Name": "Portrait-01.jpg", "Description": "Here goes my super informative description", "Layout": "" },
-                { "Id": "Portrait 2", "Name": "Portrait-02.jpg", "Description": "Here goes my super informative description", "Layout": "" },
-                { "Id": "Portrait 3", "Name": "Portrait-03.jpg", "Description": "Here goes my super informative description", "Layout": "" }
-            ]
-        },
-        {
-            "Images": [
-                { "Id": "Growing nails", "Name": "Growing-nails.jpg", "Description": "Here goes my super informative description", "Layout": "" }
-            ]
-        },
-        {
-            "Images": [
-                { "Id": "2", "Name": "2.png", "Description": "Here goes my super informative description", "Layout": "wide-tall" },
-                { "Id": "3", "Name": "3.png", "Description": "Here goes my super informative description", "Layout": "wide" },
-                { "Id": "4", "Name": "4.png", "Description": "Here goes my super informative description", "Layout": "wide-tall" }
+                { "Id": "Growing nails", "Name": "Growing-nails.jpg", "Description": "Here goes my super informative description", "Layout": "xxl" }
             ]
         },
         {
@@ -72,62 +58,88 @@
         },
         {
             "Images": [
-                { "Id": "Gamla Stan", "Name": "Gamla-Stan1-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "wide" },
-                { "Id": "Kungsträdgården Confetti Machines", "Name": "Kungsträdgården-Confetti-Machines.jpg", "Description": "Here goes my super informative description", "Layout": "" },
-                { "Id": "Gröna Lund", "Name": "Gröna-Lund1-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "wide-tall" }
+                { "Id": "Gamla Stan", "Name": "Gamla-Stan1-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "sm" },
+                { "Id": "Kungsträdgården Confetti Machines", "Name": "Kungsträdgården-Confetti-Machines.jpg", "Description": "Here goes my super informative description", "Layout": "lg" },
+                { "Id": "Gröna Lund", "Name": "Gröna-Lund1-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "sm" }
             ]
         },
         {
             "Images": [
-                { "Id": "Archipelago", "Name": "Archipelago1-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "" },
-                { "Id": "Sommar", "Name": "Sommar-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "" },
-                { "Id": "Sailing", "Name": "Sailing-copy-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "" }
+                { "Id": "Archipelago", "Name": "Archipelago1-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "sm" },
+                { "Id": "Sommar", "Name": "Sommar-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "md" },
+                { "Id": "Sailing", "Name": "Sailing-copy-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "sm" }
             ]
         },
         {
             "Images": [
-                { "Id": "Södermalm with Ice", "Name": "Södermalm-with-Ice-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "" },
-                { "Id": "Snö", "Name": "Snö1-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "" },
-                { "Id": "Lake with Ice", "Name": "Lake-with-Ice.jpg", "Description": "Here goes my super informative description", "Layout": "" }
+                { "Id": "Snö", "Name": "Snö1-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "sm" },
+                { "Id": "Södermalm with Ice", "Name": "Södermalm-with-Ice-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "sm" },
+                { "Id": "Lake with Ice", "Name": "Lake-with-Ice.jpg", "Description": "Here goes my super informative description", "Layout": "sm" }
             ]
         },
         {
             "Images": [
-
-                { "Id": "Silhouette Darkness", "Name": "Silhouette-Darkness.jpg", "Description": "Here goes my super informative description", "Layout": "" },
-                { "Id": "Silhouette Lightness", "Name": "Silhouette-Lightness.jpg", "Description": "Here goes my super informative description", "Layout": "" },
-
-                { "Id": "Greenhouse Architecture", "Name": "Greenhouse-Architecture.jpg", "Description": "Here goes my super informative description", "Layout": "" },
-                { "Id": "Dans-på-Bed-of-Roses", "Name": "Dans-på-Bed-of-Roses.jpg", "Description": "Here goes my super informative description", "Layout": "" },
-                { "Id": "Lotus Eaters Recovered", "Name": "Lotus-Eaters-Recovered.jpg", "Description": "Here goes my super informative description", "Layout": "" },
-
-                { "Id": "Girl Cape", "Name": "Girl-Cape.jpg", "Description": "Here goes my super informative description", "Layout": "" },
-                { "Id": "Girl Skirt", "Name": "Girl-Skirt.jpg", "Description": "Here goes my super informative description", "Layout": "" },
-                { "Id": "Girl Dots", "Name": "Girl-Dots.jpg", "Description": "Here goes my super informative description", "Layout": "" },
-
-                { "Id": "Midsommar1", "Name": "Midsommar1-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "" },
-                { "Id": "Tjejer", "Name": "Tjejer2-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "" },
-                { "Id": "Pattern", "Name": "Pattern-011-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "" },
-
-                { "Id": "TG", "Name": "TG.jpg", "Description": "Here goes my super informative description", "Layout": "" },
-                { "Id": "Fest 1", "Name": "Fest-01.jpg", "Description": "Here goes my super informative description", "Layout": "" },
-                { "Id": "Fest 2", "Name": "Fest-02.jpg", "Description": "Here goes my super informative description", "Layout": "" },
-
-                { "Id": "Kanelbulle", "Name": "Kanelbulle1-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "wide-tall" },
-                { "Id": "Falu Älg", "Name": "Falu-Älg1-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "" },
-                { "Id": "Baking Lesson", "Name": "Baking-Lesson-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "" },
-
-                { "Id": "Fika Tid", "Name": "Fika-Tid-copy-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "wide" },
-                { "Id": "Slussen Sunrise", "Name": "Slussen-Sunrise-copy-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "" },
-                { "Id": "Sights", "Name": "Sights-copy-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "wide" },
-
-                { "Id": "Tjena läget", "Name": "Tjena-Läget-copy-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "" },
-                { "Id": "Lagom", "Name": "Lagom.jpg", "Description": "Here goes my super informative description", "Layout": "tall" },
-
+                { "Id": "Silhouette Darkness", "Name": "Silhouette-Darkness.jpg", "Description": "Here goes my super informative description", "Layout": "md" },
+                { "Id": "Silhouette Lightness", "Name": "Silhouette-Lightness.jpg", "Description": "Here goes my super informative description", "Layout": "md" }
+            ]
+        },
+        {
+            "Images": [
+                { "Id": "Greenhouse Architecture", "Name": "Greenhouse-Architecture.jpg", "Description": "Here goes my super informative description", "Layout": "sm" },
+                { "Id": "Dans-på-Bed-of-Roses", "Name": "Dans-på-Bed-of-Roses.jpg", "Description": "Here goes my super informative description", "Layout": "lg" },
+                { "Id": "Lotus Eaters Recovered", "Name": "Lotus-Eaters-Recovered.jpg", "Description": "Here goes my super informative description", "Layout": "sm" }
+            ]
+        },
+        {
+            "Images": [
+                { "Id": "Girl Cape", "Name": "Girl-Cape.jpg", "Description": "Here goes my super informative description", "Layout": "lg" },
+                { "Id": "Girl Skirt", "Name": "Girl-Skirt.jpg", "Description": "Here goes my super informative description", "Layout": "sm" },
+                { "Id": "Girl Dots", "Name": "Girl-Dots.jpg", "Description": "Here goes my super informative description", "Layout": "" }
+            ]
+        },
+        {
+            "Images": [
+                { "Id": "Midsommar1", "Name": "Midsommar1-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "sm" },
+                { "Id": "Pattern", "Name": "Pattern-011-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "sm" },
+                { "Id": "Tjejer", "Name": "Tjejer2-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "sm" }
+            ]
+        },
+        {
+            "Images": [
+                { "Id": "TG", "Name": "TG.jpg", "Description": "Here goes my super informative description", "Layout": "xxl" },
+                { "Id": "Fest 1", "Name": "Fest-01.jpg", "Description": "Here goes my super informative description", "Layout": "md" },
+                { "Id": "Fest 2", "Name": "Fest-02.jpg", "Description": "Here goes my super informative description", "Layout": "md" }
+            ]
+        },
+        {
+            "Images": [
+                { "Id": "Kanelbulle", "Name": "Kanelbulle1-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "lg" },
+                { "Id": "Falu Älg", "Name": "Falu-Älg1-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "sm" },
+                { "Id": "Baking Lesson", "Name": "Baking-Lesson-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "" }
+            ]
+        },
+        {
+            "Images": [
+                { "Id": "Fika Tid", "Name": "Fika-Tid-copy-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "sm" },
+                { "Id": "Slussen Sunrise", "Name": "Slussen-Sunrise-copy-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "lg" },
+                { "Id": "Sights", "Name": "Sights-copy-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "" }
+            ]
+        },
+        {
+            "Images": [
+                { "Id": "Tjena läget", "Name": "Tjena-Läget-copy-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "md" },
+                { "Id": "Lagom", "Name": "Lagom.jpg", "Description": "Here goes my super informative description", "Layout": "md" }
+            ]
+        },
+        {
+            "Images": [
                 { "Id": "Uggla", "Name": "Uggla-copy-724x1024.jpg", "Description": "Here goes my super informative description", "Layout": "" },
-                { "Id": "House Party", "Name": "House-Party-copy-copy2-680x1024.jpg", "Description": "Here goes my super informative description", "Layout": "" },
-
-                { "Id": "Julkort!", "Name": "Description-785x730.jpg", "Description": "Here goes my super informative description", "Layout": "" },
+                { "Id": "House Party", "Name": "House-Party-copy-copy2-680x1024.jpg", "Description": "Here goes my super informative description", "Layout": "xl" }
+            ]
+        },
+                {
+            "Images": [
+                { "Id": "Julkort!", "Name": "Description-785x730.jpg", "Description": "Here goes my super informative description", "Layout": "md" }
             ]
         }
     ]

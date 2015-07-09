@@ -39,7 +39,9 @@
             <nav class="navbar navbar-custom navbar-transparent navbar-light navbar-fixed-top">
                 <div class="container">
                     <div class="navbar-header font-serif">
-                        @Html.ActionLink("Sarah Otley", "Index", "Portfolio", null, new { @class = "navbar-brand so" })
+                        <a class="navbar-brand" href="/">
+                            <img src="/Assets/Images/so_logo.png" alt="Sarah Otley">
+                        </a>
                     </div>
                     @*<ul id="icons-navbar" class="nav navbar-nav navbar-right">
                     <li>
@@ -53,11 +55,13 @@
                     <ul class="extra-navbar nav navbar-nav navbar-right">
                         @*<li>@Html.ActionLink("Home", "Index", "Portfolio")</li>*@
                         <li>@Html.ActionLink("oh hello", "Index", "About")</li>
+                        <li><a href="/Instagram/" class="instagram"><i class="ion-social-instagram"></i></a></li>
                     </ul>
                 </div>
             </nav>
             @RenderBody()
         </div>   
         @Scripts.Render("~/Assets/Scripts/after")
+        @RenderSection("OptionalScripts", false)
     </body>
 </html>

@@ -20,6 +20,13 @@ img {
     text-align: center;
 }
 
+.img-circle {
+  border-radius: 50%;
+}
+
+.instagram-feed {
+    padding-top: 20px;
+}
 
 /* ------------------------------------------------------------------
 Selection
@@ -95,14 +102,14 @@ Typography
 ------------------------------------------------------------------- */
 
 a {
-    color: rgba(17, 17, 17, 0.55);
+    color: #111;
 }
 
-    a:hover, a:focus {
-        text-decoration: none;
-        color: #111;
-        outline: 0;
-    }
+a:hover, a:focus {
+    text-decoration: none;
+    color: rgba(17, 17, 17, 0.5);
+    outline: 0;
+}
 
 .bg-dark a {
     color: #aaa;
@@ -1497,9 +1504,28 @@ Works grid
     width: 25%;
 }
 
-    .work-item.wide,
-    .work-item.wide-tall {
+    .work-item.xs {
+        width: 15%;
+    }
+
+    .work-item.sm {
+        width: 33%;
+    }
+
+    .work-item.md {
         width: 50%;
+    }
+
+    .work-item.lg {
+        width: 66%;
+    }
+
+    .work-item.xl {
+        width: 75%;
+    }
+
+    .work-item.xxl {
+        width: 99%;
     }
 
     /* ------------------------------------------------------------------
@@ -2092,11 +2118,18 @@ Reset bootstrap navigation styles for small screens
 
 .navbar-custom .navbar-nav > li {
     float: left;
+    vertical-align: bottom;
+}
+
+.navbar-custom .navbar-nav > li > a.instagram {
+    font-size: 30px;
+    padding-top: 10px;
 }
 
     .navbar-custom .navbar-nav > li > a {
         padding-top: 15px;
         padding-bottom: 15px;
+            
     }
 
 /* -------------------------------------------------------------------
@@ -2136,18 +2169,6 @@ Responsive Media Querries
         letter-spacing: 8px;
         font-size: 16px;
     }
-
-    /* Portfolio grid */
-
-    .work-item,
-    .grid-sizer {
-        width: 33.3333%;
-    }
-
-        .work-item.wide,
-        .work-item.wide-tall {
-            width: 66.6666%;
-        }
 }
 
 @media only screen and (max-width: 960px) {
@@ -2221,18 +2242,6 @@ Responsive Media Querries
         .filters li:last-child {
             margin: 0 10px 140px;
         }
-
-    /* Portfolio grid */
-
-    .work-item,
-    .grid-sizer {
-        width: 50%;
-    }
-
-        .work-item.wide,
-        .work-item.wide-tall {
-            width: 100%;
-        }
 }
 
 @media (max-width: 500px) {
@@ -2267,18 +2276,6 @@ Responsive Media Querries
     .mh-line-size-6 {
         font-size: 12px;
     }
-
-    /* Portfolio grid */
-
-    .work-item,
-    .grid-sizer {
-        width: 100%;
-    }
-
-        .work-item.wide,
-        .work-item.wide-tall {
-            width: 100%;
-        }
 }
 
 /* -------------------------------------------------------------------
@@ -2436,4 +2433,43 @@ Multi-columns-row
     .multi-columns-row .col-lg-1:nth-child(12n + 13) {
         clear: left;
     }
+}
+
+
+@media (max-width: 992px) {
+    .work-item,
+    .grid-sizer {
+        width: 33%;
+    }
+
+        .work-item.xs,
+        .work-item.sm,
+        .work-item.md {
+            width: 33%;
+        }
+
+        .work-item.md,
+        .work-item.lg,
+        .work-item.xxl {
+            width: 50%;
+        }
+}
+
+@media (max-width: 767px) {
+    .work-item,
+    .grid-sizer {
+        width: 50%;
+    }
+
+        .work-item.xs,
+        .work-item.sm,
+        .work-item.md {
+            width: 50%;
+        }
+
+        .work-item.md,
+        .work-item.lg,
+        .work-item.xxl {
+            width: 100%;
+        }
 }
