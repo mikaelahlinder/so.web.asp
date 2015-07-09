@@ -20,8 +20,8 @@ namespace Soweb
                 "~/Assets/Scripts/Libs/imagesloaded.pkgd.js",
                 //"~/Assets/Scripts/Libs/isotope.pkgd.min.js",
                 "~/Assets/Scripts/Libs/masonry.pkgd.min.js",
-                //"~/Assets/Scripts/Libs/jquery.easing.1.3.js",
-                //"~/Assets/Scripts/Libs/smoothscroll.js",
+                "~/Assets/Scripts/Libs/jquery.easing.1.3.js",
+                "~/Assets/Scripts/Libs/smoothscroll.js",
                 "~/Assets/Scripts/app.js");
             bundles.Add(scriptBundle);
         }
