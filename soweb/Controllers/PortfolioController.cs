@@ -15,13 +15,17 @@ namespace Soweb.Controllers
 
         public ActionResult Detail(string id)
         {
+            if (string.IsNullOrEmpty(id))
+            {
+                return RedirectToAction("Index");
+            }
+
             var portfolio = GetPortfolio();
             var model = new PortfolioDetail();
-
             model.Selected = portfolio
                 .Groups
                 .SelectMany(x => x.Images)
-                .FirstOrDefault(x => x.Id.Equals(id));
+                .FirstOrDefault(x => Equals(x.Id, id));
 
             if (model.Selected == null)
             {
@@ -30,9 +34,9 @@ namespace Soweb.Controllers
 
             model.Related = portfolio
                 .Groups
-                .First(g => g.Images.Any(image => image.Id == id))
+                .First(g => g.Images.Any(image => Equals(image.Id, id)))
                 .Images
-                .Where(p => p.Id != id)
+                .Where(p => !Equals(p.Id, id))
                 .ToArray();
 
             return View(model);
@@ -43,6 +47,11 @@ namespace Soweb.Controllers
             var path = System.IO.Path.Combine(Server.MapPath("~/App_Data/"), "portfolio.json");
             var rawtext = System.IO.File.ReadAllText(path);
             return JsonConvert.DeserializeObject<Portfolio>(rawtext);
+        }
+
+        private bool Equals(string val1, string val2)
+        {
+            return val1.ToLower().Equals(val2.ToLower());
         }
     }
 }
