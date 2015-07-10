@@ -499,24 +499,24 @@ Portfolio
     max-height: 800px;
 }
 
-@media (max-width: 992px) {
+/*@media (max-width: 992px) {
     .portfolio-item,
     .grid-sizer {
-        width: 33%;
+        width: 50%;
     }
 
     .portfolio-item.xs,
     .portfolio-item.sm,
     .portfolio-item.md {
-        width: 33%;
+        width: 50%;
     }
 
     .portfolio-item.md,
     .portfolio-item.lg,
     .portfolio-item.xxl {
-        width: 66%;
+        width: 100%;
     }
-}
+}*/
 
 @media (max-width: 767px) {
     .portfolio-item,
@@ -526,10 +526,7 @@ Portfolio
 
     .portfolio-item.xs,
     .portfolio-item.sm,
-    .portfolio-item.md {
-        width: 50%;
-    }
-
+    .portfolio-item.md,
     .portfolio-item.md,
     .portfolio-item.lg,
     .portfolio-item.xxl {
