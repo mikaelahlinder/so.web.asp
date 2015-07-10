@@ -6,19 +6,19 @@
             <div class="grid-sizer"></div>
             @foreach (var group in Model.Groups)
             {
-                <div class="portfolio-item portfolio-group-separator"></div>
                 foreach (var img in group.Images)
                 {
                     <div class="portfolio-item @img.Layout">
-                        <a href="/portfolio/detail/@img.Id">
-                            <img src="/Assets/Images/@img.Name">
-                            @*<div class="work-caption">
-                                    <h3 class="work-title">@img.Id</h3>
-                                    <div class="work-descr">@img.Description</div>
-                                </div>*@
+                        <a href="@Url.Action("Detail", "Portfolio", new { img.Id })">
+                            <img src="/Assets/Images/@img.Name"/>
+                            <div class="portfolio-work-caption">
+                                <h3 class="portfolio-work-title">@img.Id</h3>
+                                <div class="portfolio-work-descr">@img.Description</div>
+                            </div>
                         </a>
                     </div>
                 }
+                <div class="portfolio-item portfolio-group-separator"></div>
             }
         </div>
     </div>

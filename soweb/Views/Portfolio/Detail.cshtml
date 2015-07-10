@@ -4,7 +4,7 @@
     <div class="container cinta">
         <div class="row">
             <div class="col-sm-12">
-                <p><img src="/Assets/Images/@Model.Selected.Name"></p>
+                <img src="/Assets/Images/@Model.Selected.Name" class="detail-image">
             </div>
         </div>
         <div class="row">
@@ -20,7 +20,7 @@
 
 @if (Model.Related.Any())
 {
-    <section class="related">
+    <section>
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-sm-offset-3">
@@ -28,16 +28,16 @@
                 </div>
             </div>
             <div class="row">
-                <div id="works-grid" class="works-grid works-hover-w">
+                <div class="portfolio-grid">
                     <div class="grid-sizer"></div>
                     @foreach (var img in Model.Related)
                     {
-                        <div class="work-item">
-                            <a href="/Portfolio/Detail/@img.Id">
-                                <img src="/Assets/Images/@img.Name">
-                                <div class="work-caption">
-                                    <h3 class="work-title">@img.Id</h3>
-                                    <div class="work-descr">@img.Description</div>
+                        <div class="portfolio-item">
+                            <a href="@Url.Action("Detail", "Portfolio", new { img.Id })">
+                                <img src="/Assets/Images/@img.Name"/>
+                                <div class="portfolio-work-caption">
+                                    <h3 class="portfolio-work-title">@img.Id</h3>
+                                    <div class="portfolio-work-descr">@img.Description</div>
                                 </div>
                             </a>
                         </div>

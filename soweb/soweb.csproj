@@ -462,17 +462,13 @@
     <Content Include="Assets\Scripts\app.js" />
     <Content Include="Assets\Scripts\Libs\bootstrap.min.js" />
     <Content Include="Assets\Scripts\Libs\imagesloaded.pkgd.js" />
-    <Content Include="Assets\Scripts\Libs\isotope.pkgd.min.js" />
     <Content Include="Assets\Scripts\Libs\jquery-2.1.3.min.js" />
-    <Content Include="Assets\Scripts\Libs\jquery.easing.1.3.js" />
     <Content Include="Assets\Scripts\Libs\masonry.pkgd.min.js" />
-    <Content Include="Assets\Scripts\Libs\packery-mode.pkgd.min.js" />
     <Content Include="Assets\Scripts\Libs\smoothscroll.js" />
     <Content Include="Assets\Styles\Bootstrap.css" />
     <Content Include="Assets\Styles\Imports.css" />
     <Content Include="Assets\Styles\Ionicons.css" />
     <Content Include="Assets\Styles\So.css" />
-    <Content Include="Assets\Styles\Style.css" />
     <Content Include="favico.ico" />
     <Content Include="packages.config" />
     <Content Include="Views\_ViewStart.cshtml" />

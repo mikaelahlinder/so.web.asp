@@ -1,18 +1,399 @@
-﻿* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+﻿
+/* ------------------------------------------------------------------
+General Styles
+------------------------------------------------------------------ */
+
+body {
+    background: #fff;
+    font: 400 14px/1.8 "Libre Baskerville", sans-serif;
+    color: #777;
+    overflow-x: hidden;
+    -ms-overflow-style: scrollbar;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cinta {
+    text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.instagram-feed {
+    padding-top: 20px;
+}
+
+.instagram-feed a {
+    display: block;
+}
+
+/* ------------------------------------------------------------------
+Selection
+------------------------------------------------------------------ */
+
+::-moz-selection {
+    background: #000;
+    color: #fff;
+}
+
+::-webkit-selection {
+    background: #000;
+    color: #fff;
+}
+
+::selection {
+    background: #000;
+    color: #fff;
+}
+
+/* ------------------------------------------------------------------
+Typography
+------------------------------------------------------------------- */
+
+a {
+    color: #111;
+}
+
+a:hover, 
+a:focus,
+a:hover h1,
+a:hover h2,
+a:hover h3,
+a:hover h4,
+a:hover h5 {
+    text-decoration: none;
+    color: #555;
+    outline: 0;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    line-height: 1.4;
+    font-weight: 400;
+    color: #111;
+}
+
+h1, .h1 {
+    font-size: 28px;
+}
+
+h2, .h2 {
+    font-size: 24px;
+}
+
+h3, .h3 {
+    font-size: 18px;
+}
+
+h4, .h4 {
+    font-size: 16px;
+}
+
+h5, .h5 {
+    font-size: 14px;
+}
+
+h6, .h6 {
+    font-size: 12px;
+}
+
+p, ol, ul {
+    margin: 0 0 20px;
+}
+
+.font-alt {
+    font-family: "Dosis", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.font-play {
+    font-family: 'Playfair Display';
+    letter-spacing: -1.91999995708466px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+}
+
+.font-huge {
+    font-size: 60px;
+    word-wrap: break-word;
+}
+
+.font-medium {
+    font-size: 25px;
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+.font-uppercase {
+    text-transform: uppercase;
+}
+
+.font-serif {
+    font-family: "Libre Baskerville", "Times New Roman", sans-serif;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+/* ------------------------------------------------------------------
+Navigation
+------------------------------------------------------------------- */
+
+.navbar-custom {
+    -webkit-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -moz-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -o-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+}
+
+.navbar-custom {
+    border: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-size: 10px;
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+    letter-spacing: -0.959999978542328px;
+}
+
+.navbar-brand {
+    padding: 7px 15px;
+}
+
+.navbar-transparent {
+    background: transparent;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-transparent.navbar-light {
+    background: transparent;
+    webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar-light {
+    background: rgba(255, 255, 255, 0.95);
+    webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+}
+
+.navbar-brand.so {
+    text-transform: none;
+    padding-top: 15px;
+    color: rgb(17, 17, 17);
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -0.959999978542328px;
+}
+
+
+/* ------------------------------------------------------------------
+Modules
+------------------------------------------------------------------- */
+
+.wrapper {
+    background: #fff;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.module {
+    padding: 140px 0 50px 0;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* ------------------------------------------------------------------
+Preloader
+------------------------------------------------------------------- */
+.page-loader {
+    background: #fff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 9998;
+}
+
+.loader {
+    background: #333;
+    position: absolute;
+    display: inline-block;
+    height: 40px;
+    color: #00fa9a;
+    width: 40px;
+    left: 50%;
+    top: 50%;
+    margin: -20px 0 0 -20px;
+    text-indent: -9999em;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation: ball-scale 1s 0s ease-in-out infinite;
+    animation: ball-scale 1s 0s ease-in-out infinite;
+}
+
+
+@-webkit-keyframes ball-scale {
+
+    0% {
+        -webkit-transform: scale(0);
+        -moz-transform: scale(0);
+        -ms-transform: scale(0);
+        -o-transform: scale(0);
+        transform: scale(0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes ball-scale {
+
+    0% {
+        -webkit-transform: scale(0);
+        -moz-transform: scale(0);
+        -ms-transform: scale(0);
+        -o-transform: scale(0);
+        transform: scale(0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+/* -------------------------------------------------------------------
+Scroll to top
+------------------------------------------------------------------- */
+.scroll-up {
+    position: fixed;
+    bottom: 7px;
+    right: 7px;
+    z-index: 999;
+    display: block;
+}
+
+.scroll-up a {
+    background: #f7f7f7;
+    display: block;
+    height: 28px;
+    width: 28px;
+    text-align: center;
+    line-height: 28px;
+    font-size: 18px;
+    font-weight:900;
+    color: #000;
+    opacity: 0.6;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.scroll-up a:hover,
+.scroll-up a:active {
+    opacity: 1;
+    color: #000;
+}
+
+/* ------------------------------------------------------------------
+Reset bootstrap navigation styles for small screens
+------------------------------------------------------------------- */
+
+.navbar-custom .navbar-header {
+    float: left;
+}
+
+.navbar-custom .navbar-right {
+    float: right !important;
+    margin-right: -15px;
+}
+
+.navbar-custom .navbar-nav {
+    margin: 0 -15px;
+}
+
+.navbar-right + .extra-navbar {
+    margin: 0 15px;
+}
+
+.navbar-custom .navbar-nav > li {
+    float: left;
+    vertical-align: bottom;
+}
+
+.navbar-custom .navbar-nav > li > a.instagram {
+    font-size: 25px;
+    padding-top: 12px;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-custom .navbar-nav > li > a:hover {
+    background-color: transparent;
+}
+
+/* ------------------------------------------------------------------
+Portfolio
+------------------------------------------------------------------ */
 
 .portfolio-grid {
     position: relative;
     width: 100%;
+    margin: 0 auto 120px auto;
 }
 
 .portfolio-item,
 .grid-sizer {
     width: 20%;
     float: left;
-    padding: 10px;
+    padding: 10px 5px 10px 5px;
+    overflow: hidden;
 }
 
 .portfolio-item.xs {
@@ -46,5 +427,113 @@
 
 .portfolio-item.portfolio-group-separator {
     width: 100%;
-    height: 20px;
+    margin: 20px 0 20px 0;
 }
+
+.portfolio-item a:after {
+    position: absolute;
+    display: block;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -moz-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -o-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+}
+
+.portfolio-work-caption {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    opacity: 0;
+    overflow: hidden;
+    padding: 20px;
+    z-index: 3;
+    text-align: center;
+    -webkit-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -moz-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -o-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+}
+
+.portfolio-work-title {
+    color: #111;
+    margin: 6px 0 6px;
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+    letter-spacing: -0.959999978542328px;
+    text-transform: uppercase;
+}
+
+.portfolio-work-descr {
+    color: rgb(17, 17, 17);
+    font-family: 'Libre Baskerville', 'Times New Roman', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: normal;
+    letter-spacing: 0px;
+}
+
+.portfolio-item:hover a:after {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.portfolio-item:hover .portfolio-work-caption {
+    opacity: 1;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.detail-image {
+    max-height: 800px;
+}
+
+@media (max-width: 992px) {
+    .portfolio-item,
+    .grid-sizer {
+        width: 33%;
+    }
+
+    .portfolio-item.xs,
+    .portfolio-item.sm,
+    .portfolio-item.md {
+        width: 33%;
+    }
+
+    .portfolio-item.md,
+    .portfolio-item.lg,
+    .portfolio-item.xxl {
+        width: 66%;
+    }
+}
+
+@media (max-width: 767px) {
+    .portfolio-item,
+    .grid-sizer {
+        width: 50%;
+    }
+
+    .portfolio-item.xs,
+    .portfolio-item.sm,
+    .portfolio-item.md {
+        width: 50%;
+    }
+
+    .portfolio-item.md,
+    .portfolio-item.lg,
+    .portfolio-item.xxl {
+        width: 100%;
+    }
+}
+
