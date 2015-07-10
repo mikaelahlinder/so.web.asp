@@ -519,6 +519,11 @@ Portfolio
 }*/
 
 @media (max-width: 767px) {
+
+    .font-huge {
+        font-size: 40px;
+    }
+
     .portfolio-item,
     .grid-sizer {
         width: 50%;
