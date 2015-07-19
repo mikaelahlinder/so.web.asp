@@ -543,7 +543,7 @@ Portfolio
     .portfolio-item.md,
     .portfolio-item.lg,
     .portfolio-item.xxl {
-        width: 100%;
+        width: 50%;
     }
 }
 

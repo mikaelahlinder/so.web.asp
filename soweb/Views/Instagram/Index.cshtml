@@ -18,12 +18,12 @@
         $.getJSON('/Instagram/GetImages', function (data) {
             var json = $.parseJSON(data);
             $.each(json.data, function (index, value) {
-                if (value.tags.length == 0 || value.location.name == undefined)
+                if (value.tags.length === 0 || value.location.name == undefined)
                     return;
 
                 $('.instagram-feed').append(
                     '<a target="_blank" href="' + value.link + '">' +
-                    '<h3 class="font-play font-medium font-uppercase">' + value.location.name + '</h3>' +
+                    '<h3 class="font-serif font-medium">' + value.location.name + '</h3>' +
                     '<h4 class="font-serif">#' + value.tags.join(", #") + '</h4>' +
                     '</a>');
             });
