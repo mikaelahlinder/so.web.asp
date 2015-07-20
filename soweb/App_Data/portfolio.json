@@ -2,8 +2,9 @@
     "Groups": [
         {
             "Images": [
+                { "Id": "NEW NEW NEW", "Name": "new-512.png", "Description": "Desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc", "Layout": "md" },
                 { "Id": "1", "Name": "Sarah Otley6633.jpg", "Description": "", "Layout": "md" },
-                { "Id": "2", "Name": "Sarah Otley6635.jpg", "Description": "", "Layout": "lg" },
+                { "Id": "2", "Name": "Sarah Otley6635.jpg", "Description": "", "Layout": "md" },
                 { "Id": "3", "Name": "Sarah Otley6637.jpg", "Description": "", "Layout": "md" },
                 { "Id": "4", "Name": "Sarah Otley6645.jpg", "Description": "", "Layout": "md" }
             ]
@@ -17,8 +18,8 @@
         },
         {
             "Images": [
-                { "Id": "8", "Name": "Sarah Otley6695 thumb.jpg", "Description": "", "Layout": "md" },
-                { "Id": "9", "Name": "Sarah Otley7132 thumb.jpg", "Description": "", "Layout": "md" }
+                { "Id": "8", "Name": "Sarah Otley6695 thumb.jpg", "Description": "", "Layout": "lg" },
+                { "Id": "9", "Name": "Sarah Otley7132 thumb.jpg", "Description": "", "Layout": "lg" }
             ]
         },
         {
@@ -29,8 +30,8 @@
         },
         {
             "Images": [
-                { "Id": "11", "Name": "Sarah Otley7186 thumb.jpg", "Description": "", "Layout": "sm" },
-                { "Id": "12", "Name": "Sarah Otley7192 thumb.jpg", "Description": "", "Layout": "lg" },
+                { "Id": "11", "Name": "Sarah Otley7186 thumb.jpg", "Description": "", "Layout": "lg" },
+                { "Id": "12", "Name": "Sarah Otley7192 thumb.jpg", "Description": "", "Layout": "md" },
                 { "Id": "13", "Name": "Sarah Otley7207 thumb.jpg", "Description": "", "Layout": "sm" }
             ]
         },

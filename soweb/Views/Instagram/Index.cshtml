@@ -4,7 +4,7 @@
             <div class="col-sm-12">
                 <a href="https://instagram.com/sarahotley" target="_blank">
                     <img src="/Assets/Images/insta_profile.jpg" class="img-circle" />
-                    <h5 class="font-play font-huge font-uppercase">SARAHOTLEY</h5>
+                    <h5 class="font-play font-huge">&#64;sarahotley</h5>
                 </a>
                 <div class="instagram-feed">
                 </div>
@@ -23,8 +23,8 @@
 
                 $('.instagram-feed').append(
                     '<a target="_blank" href="' + value.link + '">' +
-                    '<h3 class="font-serif font-medium">' + value.location.name + '</h3>' +
-                    '<h4 class="font-serif">#' + value.tags.join(", #") + '</h4>' +
+                    '<h3 class="font-serif font-medium no-bottom-margin">' + value.location.name + '</h3>' +
+                    '<h4 class="font-serif no-top-margin">#' + value.tags.join(", #") + '</h4>' +
                     '</a>');
             });
         });

@@ -39,7 +39,7 @@
                     var isPortrait = img.width() < img.height();
                     var thisWidth = Math.round($this.width());
                     $this.css({
-                        height: isPortrait ? thisWidth * 1.4 : thisWidth * 0.67
+                        height: isPortrait ? thisWidth * 1.5 : thisWidth * 0.67
                     });
                 });
             }).resize();
