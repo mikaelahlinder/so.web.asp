@@ -157,8 +157,8 @@ div#hello {
     padding: 0;
     width: 100%;
     text-align: center;
-    background-color: #00ccff;
-    background: url('/Assets/Images/Photos/Gray%201.jpg') no-repeat center center fixed;
+    background-color: #fff;
+    background: url('/Assets/Images/Photos/Gray%203.jpg') no-repeat top left fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -515,6 +515,10 @@ h4.no-bottom-margin {
 
     div#hello h1 {
         padding: 55% 0 0 0;
+    }
+
+    .portfolio-grid {
+        margin: 0 auto 20px auto;
     }
 
     .portfolio-item,
