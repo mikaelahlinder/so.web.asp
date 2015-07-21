@@ -8,6 +8,7 @@ namespace Soweb
         {
             RegisterStyleBundles(bundles);
             RegisterScriptBundles(bundles);
+            BundleTable.EnableOptimizations = true;
         }
 
         private static void RegisterScriptBundles(BundleCollection bundles)

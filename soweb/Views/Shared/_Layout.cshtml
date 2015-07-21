@@ -11,29 +11,56 @@
     @Styles.Render("~/Assets/Styles/before")
 </head>
     <body>
+        
         <div class="page-loader">
             <div class="loader">Loading...</div>
         </div>
+        
+        @{
+            string actionName = HttpContext.Current.Request.RequestContext.RouteData.Values["action"].ToString();
+            string controllerName = HttpContext.Current.Request.RequestContext.RouteData.Values["controller"].ToString();
+            bool isFirst = controllerName == "Portfolio" && actionName == "Index";
+        }
+        
+        @if (isFirst)
+        {
+            <div id="hello">
+                <h1 class="font-play font-uppercase font-mega no-bottom-margin">Sarah Otley</h1>
+                <h4 class="font-serif font-medium no-top-margin">illustrations - set design - architecture</h4>
+            </div>
+        }
+
         <div class="wrapper">
-            <nav class="navbar navbar-custom navbar-transparent navbar-light navbar-fixed-top">
-                <div class="container">
-                    <div class="navbar-header font-serif">
-                        <a class="navbar-brand" href="/">
-                            <img src="/Assets/Images/so_logo.png" alt="Sarah Otley">
-                        </a>
-                    </div>
-                    <ul class="extra-navbar nav navbar-nav navbar-right">
-                        <li><a href="/about">oh hello</a></li>
-                        <li><a href="/instagram" class="instagram"><i class="ion-social-instagram"></i></a></li>
-                    </ul>
+        <nav class="navbar navbar-custom fixed">
+                <div class="logo pull-left">
+                    <a href="/">SO</a>
+                </div>
+                <div class="links pull-right">
+                    <a href="/about">oh hello</a>
+                    <a href="/instagram" class="instagram"><i class="ion-social-instagram"></i></a>
                 </div>
             </nav>
             @RenderBody()
-        </div>   
+            </div>
         <div class="scroll-up">
             <a href="#totop"><i class="ion-ios-arrow-thin-up"></i></a>
         </div>
+
         @Scripts.Render("~/Assets/Scripts/after")
         @RenderSection("OptionalScripts", false)
+        @if (isFirst)
+        {
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    var navheight = $(window).height() - $('.navbar').height();
+                    $(window).scroll(function() {
+                        if ($(window).scrollTop() > navheight)
+                            $('nav').addClass('fixed');
+                        else
+                            $('nav').removeClass('fixed');
+                    }).scroll();
+                });
+            </script>
+        }
     </body>
 </html>

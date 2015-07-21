@@ -8,7 +8,7 @@ body {
     font: 400 14px/1.8 "Libre Baskerville", sans-serif;
     color: #777;
     overflow-x: hidden;
-    -ms-overflow-style: scrollbar;  
+    -ms-overflow-style: scrollbar;
 }
 
 img {
@@ -120,6 +120,11 @@ p, ol, ul {
     font-weight: 900;
 }
 
+.font-mega {
+    font-size: 90px;
+    word-wrap: break-word;
+}
+
 .font-huge {
     font-size: 60px;
     word-wrap: break-word;
@@ -147,66 +152,64 @@ p, ol, ul {
 Navigation
 ------------------------------------------------------------------- */
 
-.navbar-custom {
-    -webkit-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-    -moz-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-    -o-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-    transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+div#hello {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #00ccff;
+    background: url('/Assets/Images/Photos/Gray%201.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+div#hello h1 {
+    padding: 15% 0 0 0;
+    margin: 0 auto;
 }
 
 .navbar-custom {
     border: 0;
+    margin: 0;
+    border-radius: 0;
     padding-top: 5px;
     padding-bottom: 5px;
-    letter-spacing: 2px;
-    font-weight: 800;
-    font-size: 10px;
-    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
-    font-size: 14px;
-    font-stretch: normal;
+    background: #000;
+    width: 100%;
+    font-family: "Libre Baskerville", "Times New Roman", sans-serif;
+    letter-spacing: -0.96px;
+    font-style: italic;
+}
+
+.navbar-custom .logo {
+    padding: 0 0 0 20px;
+    font-size: 28px;
+    font-weight: bolder;
+    letter-spacing: -4px;
     font-style: normal;
-    font-variant: normal;
-    font-weight: 900;
-    letter-spacing: -0.959999978542328px;
 }
 
-.navbar-brand {
-    padding: 7px 15px;
-}
-
-.navbar-transparent {
-    background: transparent;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-.navbar-transparent.navbar-light {
-    background: transparent;
-    webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}
-
-.navbar-light {
-    background: rgba(255, 255, 255, 0.95);
-    webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
-    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
-    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
-}
-
-.navbar-brand.so {
-    text-transform: none;
-    padding-top: 15px;
-    color: rgb(17, 17, 17);
-    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+.navbar-custom .links {
     font-size: 18px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 900;
-    text-transform: uppercase;
-    letter-spacing: -0.959999978542328px;
+    margin: 10px 0 0 0;
 }
 
+.navbar-custom a {
+    color: #fff;
+    margin: 0 20px 0 0;
+}
+
+.navbar-custom a:hover {
+    color: #f7f7f7;
+}
+
+.fixed {
+	position: fixed; 
+	top: 0; 
+	z-index: 1;
+}
 
 /* ------------------------------------------------------------------
 Modules
@@ -339,95 +342,63 @@ Scroll to top
 }
 
 /* ------------------------------------------------------------------
-Reset bootstrap navigation styles for small screens
-------------------------------------------------------------------- */
-
-.navbar-custom .navbar-header {
-    float: left;
-}
-
-.navbar-custom .navbar-right {
-    float: right !important;
-    margin-right: -15px;
-}
-
-.navbar-custom .navbar-nav {
-    margin: 0 -15px;
-}
-
-.navbar-right + .extra-navbar {
-    margin: 0 15px;
-}
-
-.navbar-custom .navbar-nav > li {
-    float: left;
-    vertical-align: bottom;
-}
-
-.navbar-custom .navbar-nav > li > a.instagram {
-    font-size: 25px;
-    padding-top: 12px;
-}
-
-.navbar-custom .navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-.navbar-custom .navbar-nav > li > a:hover {
-    background-color: transparent;
-}
-
-/* ------------------------------------------------------------------
 Portfolio
 ------------------------------------------------------------------ */
 
 .portfolio-grid {
     position: relative;
     width: 100%;
-    margin: 0 auto 120px auto;
+    margin: 0 auto 90px auto;
 }
 
 .portfolio-item,
 .grid-sizer {
-    width: 20%;
+    width: 8.33333333%;
     float: left;
     padding: 10px 5px 10px 5px;
     overflow: hidden;
 }
 
-.portfolio-item.xs {
-    width: 10%;
+.portfolio-item.col-12 {
+  width: 100%;
 }
-
-.portfolio-item.sm {
-    width: 20%;
+.portfolio-item.col-11 {
+  width: 91.66666667%;
 }
-
-.portfolio-item.md {
-    width: 40%;
+.portfolio-item.col-10 {
+  width: 83.33333333%;
 }
-
-.portfolio-item.lg {
-    width: 60%;
+.portfolio-item.col-9 {
+  width: 75%;
 }
-
-.portfolio-item.xl {
-    width: 80%;
+.portfolio-item.col-8 {
+  width: 66.66666667%;
 }
-
-.portfolio-item.xxl {
-    width: 100%;
+.portfolio-item.col-7 {
+  width: 58.33333333%;
+}
+.portfolio-item.col-6 {
+  width: 50%;
+}
+.portfolio-item.col-5 {
+  width: 41.66666667%;
+}
+.portfolio-item.col-4 {
+  width: 33.33333333%;
+}
+.portfolio-item.col-3 {
+  width: 25%;
+}
+.portfolio-item.col-2 {
+  width: 16.66666667%;
+}
+.portfolio-item.col-1 {
+  width: 8.33333333%;
 }
 
 .portfolio-item img {
     height: auto;
     width: 100%;
-}
-
-.portfolio-item.portfolio-group-separator {
-    width: 100%;
-    margin: 20px 0 20px 0;
 }
 
 .portfolio-item a:after {
@@ -507,6 +478,17 @@ Portfolio
     max-height: 800px;
 }
 
+.related {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.related a img {
+    max-width: 200px;
+    max-height: 200px;
+    margin: 20px 10px;
+}
+
 h1.no-top-margin,
 h2.no-top-margin,
 h3.no-top-margin,
@@ -521,42 +503,37 @@ h4.no-bottom-margin {
     margin-bottom: 0px !important;
 }
 
-/*@media (max-width: 992px) {
-    .portfolio-item,
-    .grid-sizer {
-        width: 50%;
-    }
-
-    .portfolio-item.xs,
-    .portfolio-item.sm,
-    .portfolio-item.md {
-        width: 50%;
-    }
-
-    .portfolio-item.md,
-    .portfolio-item.lg,
-    .portfolio-item.xxl {
-        width: 100%;
-    }
-}*/
-
 @media (max-width: 767px) {
+
+    .font-mega {
+        font-size: 50px;
+    }
 
     .font-huge {
         font-size: 40px;
     }
 
+    div#hello h1 {
+        padding: 55% 0 0 0;
+    }
+
     .portfolio-item,
     .grid-sizer {
         width: 50%;
     }
 
-    .portfolio-item.xs,
-    .portfolio-item.sm,
-    .portfolio-item.md,
-    .portfolio-item.md,
-    .portfolio-item.lg,
-    .portfolio-item.xxl {
+    .portfolio-item.col-1,
+    .portfolio-item.col-2,
+    .portfolio-item.col-3,
+    .portfolio-item.col-4,
+    .portfolio-item.col-5,
+    .portfolio-item.col-6,
+    .portfolio-item.col-7,
+    .portfolio-item.col-8,
+    .portfolio-item.col-9,
+    .portfolio-item.col-10,
+    .portfolio-item.col-11,
+    .portfolio-item.col-12 {
         width: 50%;
     }
 }

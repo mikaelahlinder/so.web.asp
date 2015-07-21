@@ -27,22 +27,14 @@
                     <h5 class="font-play font-medium font-uppercase cinta">Related</h5>
                 </div>
             </div>
-            <div class="row">
-                <div class="portfolio-grid">
-                    <div class="grid-sizer"></div>
-                    @foreach (var img in Model.Related)
-                    {
-                        <div class="portfolio-item">
-                            <a href="@Url.Action("Detail", "Portfolio", new { img.Id })">
-                                <img src="/Assets/Images/@img.Name"/>
-                                <div class="portfolio-work-caption">
-                                    <h3 class="portfolio-work-title">@img.Id</h3>
-                                    <div class="portfolio-work-descr">@img.Description</div>
-                                </div>
-                            </a>
-                        </div>
-                    }
-                </div>
+            <div class="row related">
+                @foreach (var img in Model.Related)
+                {
+                    <a href="@Url.Action("Detail", "Portfolio", new { img.Id })">
+                        <img src="/Assets/Images/@img.Name" />
+
+                    </a>
+                }
             </div>
         </div>
     </section>

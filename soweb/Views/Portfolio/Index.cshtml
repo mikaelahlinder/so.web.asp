@@ -2,15 +2,17 @@
 
 <section class="module">
     <div class="container">
-        <div class="portfolio-grid">
-            <div class="grid-sizer"></div>
-            @foreach (var group in Model.Groups)
-            {
-                foreach (var img in group.Images)
+
+        @foreach (var group in Model.Groups)
+        {
+            <div class="portfolio-grid @group.Css">
+                <div class="grid-sizer"></div>
+
+                @foreach (var img in group.Images)
                 {
                     <div class="portfolio-item @img.Layout">
                         <a href="@Url.Action("Detail", "Portfolio", new { img.Id })">
-                            <img src="/Assets/Images/@img.Name"/>
+                            <img src="/Assets/Images/@img.Name" />
                             <div class="portfolio-work-caption">
                                 <h3 class="portfolio-work-title">@img.Id</h3>
                                 <div class="portfolio-work-descr">@img.Description</div>
@@ -18,8 +20,9 @@
                         </a>
                     </div>
                 }
-                <div class="portfolio-item portfolio-group-separator"></div>
-            }
-        </div>
+
+            </div>
+        }
+
     </div>
 </section>

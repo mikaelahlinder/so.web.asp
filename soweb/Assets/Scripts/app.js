@@ -8,33 +8,24 @@
 
     $(document).ready(function () {
 
-        var navbar = $('.navbar-custom');
-        var isNavbarTransparent = navbar.hasClass('navbar-transparent');
         $(window).scroll(function () {
-
-            if (isNavbarTransparent !== false) 
-                navbar.toggleClass('navbar-transparent', $(window).scrollTop() < 5);
-
-            if ($(this).scrollTop() > 100) 
+            if ($(window).scrollTop() > 100)
                 $('.scroll-up').fadeIn();
-             else 
+            else
                 $('.scroll-up').fadeOut();
 
         }).scroll();
 
         $('a[href="#totop"]').click(function () {
-            $('html, body').animate({ scrollTop: 0 }, 'fast');
+            $('html, body').animate({ scrollTop: $(window).height() }, 'fast');
             return false;
         });
 
-        var $grid = $('.portfolio-grid').imagesLoaded(function () {
+        $('.portfolio-grid').imagesLoaded(function (obj) {
 
-            $(window).resize(function() {
-                $('.portfolio-item').each(function() {
+            $(window).resize(function () {
+                $(obj.elements).each(function () {
                     var $this = $(this);
-                    if ($this.hasClass('portfolio-group-separator'))
-                        return;
-
                     var img = $this.find('img');
                     var isPortrait = img.width() < img.height();
                     var thisWidth = Math.round($this.width());
@@ -42,13 +33,20 @@
                         height: isPortrait ? thisWidth * 1.5 : thisWidth * 0.67
                     });
                 });
+
+                $('#hello').height($(window).height());
+
             }).resize();
 
-            $grid.masonry({
-                itemSelector: '.portfolio-item',
-                columnWidth: '.grid-sizer',
-                percentPosition: true,
-                transitionDuration: '0'
+            $(obj.elements).each(function () {
+                var $grd = $(this);
+                $grd.masonry({
+                    itemSelector: '.portfolio-item',
+                    columnWidth: '.grid-sizer',
+                    percentPosition: true,
+                    isOriginLeft: !$grd.hasClass('cluster-right'),
+                    transitionDuration: '0'
+                });
             });
         });
     });
