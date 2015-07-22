@@ -100,6 +100,7 @@
   <ItemGroup>
     <Content Include="Assets\Fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Assets\Fonts\ionicons.svg" />
+    <Content Include="Assets\Images\Hello.jpg" />
     <Content Include="Assets\Images\Illustrations\Archipelago.jpg" />
     <Content Include="Assets\Images\Illustrations\Baking-Lesson.jpg" />
     <Content Include="Assets\Images\Illustrations\Balloons-Flowers.jpg" />

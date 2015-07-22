@@ -24,15 +24,16 @@
         $('.portfolio-grid').imagesLoaded(function (obj) {
 
             $(window).resize(function () {
-                $(obj.elements).each(function () {
-                    var $this = $(this);
-                    var img = $this.find('img');
-                    var isPortrait = img.width() < img.height();
-                    var thisWidth = Math.round($this.width());
-                    $this.css({
-                        height: isPortrait ? thisWidth * 1.5 : thisWidth * 0.67
-                    });
-                });
+                //$(obj.elements).each(function () {
+                //    var $this = $(this);
+                //    var img = $this.find('img');
+                //    var isPortrait = img.width() < img.height();
+                //    var thisWidth = Math.round($this.width());
+                //    console.log(isPortrait);
+                //    $this.css({
+                //        height: isPortrait ? thisWidth * 2.8 : thisWidth * 0.67
+                //    });
+                //});
 
                 $('#hello').height($(window).height());
 
@@ -44,8 +45,7 @@
                     itemSelector: '.portfolio-item',
                     columnWidth: '.grid-sizer',
                     percentPosition: true,
-                    isOriginLeft: !$grd.hasClass('cluster-right'),
-                    transitionDuration: '0'
+                    isOriginLeft: !$grd.hasClass('cluster-right')
                 });
             });
         });

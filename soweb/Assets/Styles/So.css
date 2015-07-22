@@ -163,18 +163,14 @@ Navigation
 div#hello {
     width: 100%;
     background-color: #333;
-    background: url('/Assets/Images/Photos/Spoons%204.jpg') no-repeat top left fixed;
+    overflow: hidden;
+    background: url('/Assets/Images/Hello.jpg') no-repeat top left fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    -webkit-filter: blur(15px);
-    -moz-filter: blur(15px);
-    -o-filter: blur(15px);
-    -ms-filter: blur(15px);
-    filter: blur(15px);
 }
-
+    
 div#hellotext  {
     padding: 0 0 0 0;
     margin: 0 auto;
