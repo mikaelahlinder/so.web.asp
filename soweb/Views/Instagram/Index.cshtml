@@ -24,9 +24,9 @@
                 $('.instagram-feed').append(
                     '<a target="_blank" href="' + value.link + '">' +
                     '<h3 class="font-serif font-medium no-bottom-margin">' + value.location.name + '</h3>' +
-                    '<h4 class="font-serif no-top-margin">' + value.tags.join(", ") + '</h4>' +
+                    '<h4 class="font-serif no-top-margin">#' + value.tags.join(", #") + '</h4>' +
                     '</a>');
             });
         });
     </script>
-}s
+}
