@@ -3,10 +3,10 @@
         {
             "Css" :  "",
             "Images": [
-                { "Id": "1", "Name": "Photos/Spoons 1.jpg", "Description": "", "Layout": "col-4" },
+                { "Id": "1", "Name": "Photos/Spoons 1.jpg", "Description": "", "Layout": "col-5" },
                 { "Id": "2", "Name": "Photos/Spoons 2.jpg", "Description": "", "Layout": "col-4" },
-                { "Id": "3", "Name": "Photos/Spoons 3.jpg", "Description": "", "Layout": "col-4" },
-                { "Id": "4", "Name": "Photos/Spoons 4.jpg", "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum sem ut mauris semper, sit amet fermentum dui pulvinar. In ullamcorper, mi non hendrerit pharetra, ligula felis faucibus felis, quis accumsan metus orci vel enim. Nulla id erat in tellus luctus finibus ac nec orci. Fusce at dui vel risus vulputate volutpat. Vivamus non metus lectus. Etiam scelerisque sapien eget est fermentum, ut blandit ante mattis. Nam eu cursus leo. Nunc mattis mauris leo, vitae feugiat orci varius nec. Quisque ut ligula at mi condimentum vulputate. Nulla id luctus metus. Mauris nec leo ornare, viverra dolor a, facilisis turpis.", "Layout": "col-12" }
+                { "Id": "3", "Name": "Photos/Spoons 3.jpg", "Description": "", "Layout": "col-3" },
+                { "Id": "4", "Name": "Photos/Spoons 4.jpg", "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum sem ut mauris semper, sit amet fermentum dui pulvinar. In ullamcorper, mi non hendrerit pharetra, ligula felis faucibus felis, quis accumsan metus orci vel enim. Nulla id erat in tellus luctus finibus ac nec orci. Fusce at dui vel risus vulputate volutpat. Vivamus non metus lectus. Etiam scelerisque sapien eget est fermentum, ut blandit ante mattis. Nam eu cursus leo. Nunc mattis mauris leo, vitae feugiat orci varius nec. Quisque ut ligula at mi condimentum vulputate. Nulla id luctus metus. Mauris nec leo ornare, viverra dolor a, facilisis turpis.", "Layout": "col-4" }
             ]
         },
         {
@@ -50,9 +50,9 @@
         {
             "Css" :  "",
             "Images": [
-                { "Id": "17", "Name": "Photos/Marble 1.jpg", "Description": "", "Layout": "col-4" },
-                { "Id": "18", "Name": "Photos/Marble 2.jpg", "Description": "", "Layout": "col-4" },
-                { "Id": "19", "Name": "Photos/Marble 3.jpg", "Description": "", "Layout": "col-4" }
+                { "Id": "17", "Name": "Photos/Marble 2.jpg", "Description": "", "Layout": "col-6" },
+                { "Id": "18", "Name": "Photos/Marble 1.jpg", "Description": "", "Layout": "col-6" },
+                { "Id": "19", "Name": "Photos/Marble 3.jpg", "Description": "", "Layout": "col-6" }
             ]
         },
         {
@@ -65,18 +65,18 @@
         {
             "Css" :  "",
             "Images": [
-                { "Id": "Rödbeta", "Name": "Illustrations/Rödbeta.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "Layout": "col-3" },
+                { "Id": "Rödbeta", "Name": "Illustrations/Rödbeta.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "Layout": "col-4" },
                 { "Id": "Pistache", "Name": "Illustrations/Pistache.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "Layout": "col-3" },
-                { "Id": "Vanilj", "Name": "Illustrations/Vanilj.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "Layout": "col-3" },
+                { "Id": "Vanilj", "Name": "Illustrations/Vanilj.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "Layout": "col-5" },
                 { "Id": "Hallon Blåbär", "Name": "Illustrations/Hallon Blåbär.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "Layout": "col-3" }
             ]
         },
         {
             "Css" :  "",
             "Images": [
-                { "Id": "Hus 1", "Name": "Illustrations/Hus-01.jpg", "Description": "Here goes my super informative description", "Layout": "col-3" },
+                { "Id": "Hus 1", "Name": "Illustrations/Hus-01.jpg", "Description": "Here goes my super informative description", "Layout": "col-5" },
                 { "Id": "Hus 3", "Name": "Illustrations/Hus-03.jpg", "Description": "Here goes my super informative description", "Layout": "col-3" },
-                { "Id": "Hus 2", "Name": "Illustrations/Hus-02.jpg", "Description": "Here goes my super informative description", "Layout": "col-3" },
+                { "Id": "Hus 2", "Name": "Illustrations/Hus-02.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
                 { "Id": "Hus 4", "Name": "Illustrations/Hus-04.jpg", "Description": "Here goes my super informative description", "Layout": "col-3" }
             ]
         },
@@ -112,10 +112,10 @@
         {
             "Css" :  "",
             "Images": [
-                { "Id": "Interior Trends", "Name": "Illustrations/Interior-Trends.jpg", "Description": "Here goes my super informative description", "Layout": "col-6" },
-                { "Id": "Interior Wishlist", "Name": "Illustrations/Interior-Wishlist.jpg", "Description": "Here goes my super informative description", "Layout": "col-6" },
-                { "Id": "Interior Coral", "Name": "Illustrations/Interior-Coral.jpg", "Description": "Here goes my super informative description", "Layout": "col-6" },
-                { "Id": "Interior Forest", "Name": "Illustrations/Interior-Forest.jpg", "Description": "Here goes my super informative description", "Layout": "col-6" }
+                { "Id": "Interior Trends", "Name": "Illustrations/Interior-Trends.jpg", "Description": "Here goes my super informative description", "Layout": "col-5" },
+                { "Id": "Interior Wishlist", "Name": "Illustrations/Interior-Wishlist.jpg", "Description": "Here goes my super informative description", "Layout": "col-3" },
+                { "Id": "Interior Coral", "Name": "Illustrations/Interior-Coral.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
+                { "Id": "Interior Forest", "Name": "Illustrations/Interior-Forest.jpg", "Description": "Here goes my super informative description", "Layout": "col-3" }
             ]
         },
         {
