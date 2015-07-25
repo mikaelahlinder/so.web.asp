@@ -215,6 +215,13 @@ div#hellotext h4 {
     margin: 10px 0 0 0;
 }
 
+.container .filter {
+    font-size: 18px;
+    position: absolute;
+    left: 50%;
+    top:10px;
+}
+
 .navbar-custom a,
 .navbar-custom.fixed a {
     color: #231f20;
@@ -371,6 +378,7 @@ Portfolio
     position: relative;
     width: 100%;
     margin: 0 auto 90px auto;
+    max-width: 900px;
 }
 
 .portfolio-item,

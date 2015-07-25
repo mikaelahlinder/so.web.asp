@@ -9,8 +9,29 @@ namespace Soweb.Controllers
     {
         public ActionResult Index()
         {
+            return Piccies();
+        }
+
+        public ActionResult Piccies()
+        {
             var model = GetPortfolio();
-            return View(model);
+            model.Groups = model
+                .Groups
+                .Where(x => x.Images.Any(y => y.Name.Contains("Photos/")))
+                .ToArray();
+
+            return View("Index", model);
+        }
+
+        public ActionResult Illos()
+        {
+            var model = GetPortfolio();
+            model.Groups = model
+                .Groups
+                .Where(x => x.Images.Any(y => y.Name.Contains("Illustrations/")))
+                .ToArray();
+
+            return View("Index", model);
         }
 
         public ActionResult Detail(string id)
