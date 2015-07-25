@@ -206,6 +206,8 @@
     <Content Include="Assets\Fonts\ionicons.eot" />
     <Content Include="Assets\Fonts\ionicons.ttf" />
     <Content Include="Assets\Fonts\ionicons.woff" />
+    <Content Include="App_Data\photos.json" />
+    <Content Include="App_Data\illos.json" />
     <None Include="Properties\PublishProfiles\Binero.pubxml" />
     <Content Include="Views\Instagram\Index.cshtml" />
     <None Include="Web.Debug.config">

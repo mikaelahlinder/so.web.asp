@@ -1,0 +1,122 @@
+﻿{
+    "Groups": [
+        {
+            "Css": "",
+            "Images": [
+                { "Id": "Interior Forest", "Name": "Illustrations/Interior-Forest.jpg", "Description": "", "Layout": "col-5" },
+                { "Id": "Interior Trends", "Name": "Illustrations/Interior-Trends.jpg", "Description": "", "Layout": "col-3" },
+                { "Id": "Interior Coral", "Name": "Illustrations/Interior-Coral.jpg", "Description": "", "Layout": "col-4" },
+                { "Id": "Interior Wishlist", "Name": "Illustrations/Interior-Wishlist.jpg", "Description": "", "Layout": "col-3" }
+            ]
+        },
+        {
+            "Css": "",
+            "Images": [
+                { "Id": "Koloniträdgård", "Name": "Illustrations/Koloniträdgård.jpg", "Description": "", "Layout": "col-6" },
+                { "Id": "Balloons Stugas", "Name": "Illustrations/Balloons-Stugas.jpg", "Description": "", "Layout": "col-5" }
+            ]
+        },
+        {
+            "Css": "",
+            "Images": [
+                { "Id": "Rödbeta", "Name": "Illustrations/Rödbeta.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "Layout": "col-4" },
+                { "Id": "Pistache", "Name": "Illustrations/Pistache.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "Layout": "col-3" },
+                { "Id": "Vanilj", "Name": "Illustrations/Vanilj.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "Layout": "col-5" },
+                { "Id": "Hallon Blåbär", "Name": "Illustrations/Hallon Blåbär.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "Layout": "col-3" }
+            ]
+        },
+        {
+            "Css": "",
+            "Images": [
+                { "Id": "Hus 1", "Name": "Illustrations/Hus-01.jpg", "Description": "", "Layout": "col-5" },
+                { "Id": "Hus 3", "Name": "Illustrations/Hus-03.jpg", "Description": "", "Layout": "col-3" },
+                { "Id": "Hus 2", "Name": "Illustrations/Hus-02.jpg", "Description": "", "Layout": "col-4" },
+                { "Id": "Hus 4", "Name": "Illustrations/Hus-04.jpg", "Description": "", "Layout": "col-3" }
+            ]
+        },
+        {
+            "Css": "",
+            "Images": [
+                { "Id": "STHLM", "Name": "Illustrations/STHLM.jpg", "Description": "", "Layout": "col-4" },
+                { "Id": "Streetstyle", "Name": "Illustrations/Streetstyle.jpg", "Description": "", "Layout": "col-4" },
+                { "Id": "Streetstyle Killar", "Name": "Illustrations/Streetstyle-Killar.jpg", "Description": "", "Layout": "col-4" }
+            ]
+        },
+        {
+            "Css": "",
+            "Images": [
+                { "Id": "Portrait 1", "Name": "Illustrations/Portrait-01.jpg", "Description": "", "Layout": "col-4" },
+                { "Id": "Portrait 2", "Name": "Illustrations/Portrait-02.jpg", "Description": "", "Layout": "col-4" },
+                { "Id": "Portrait 3", "Name": "Illustrations/Portrait-03.jpg", "Description": "", "Layout": "col-4" }
+            ]
+        },
+        {
+            "Images": [
+                { "Id": "Growing nails", "Name": "Illustrations/Growing-nails.jpg", "Description": "", "Layout": "col-12" }
+            ]
+        },
+        {
+            "Css": "",
+            "Images": [
+                { "Id": "Gamla Stan", "Name": "Illustrations/Gamla-Stan.jpg", "Description": "", "Layout": "col-4" },
+                { "Id": "Kungsträdgården Confetti Machines", "Name": "Illustrations/Kungsträdgården-Confetti-Machines.jpg", "Description": "", "Layout": "col-4" },
+                { "Id": "Gröna Lund", "Name": "Illustrations/Gröna-Lund.jpg", "Description": "", "Layout": "col-4" }
+            ]
+        },
+        {
+            "Css": "",
+            "Images": [
+                { "Id": "Archipelago", "Name": "Illustrations/Archipelago.jpg", "Description": "", "Layout": "col-4" },
+                { "Id": "Sommar", "Name": "Illustrations/Sommar.jpg", "Description": "", "Layout": "col-4" },
+                { "Id": "Sailing", "Name": "Illustrations/Sailing.jpg", "Description": "", "Layout": "col-4" }
+            ]
+        },
+        {
+            "Css": "",
+            "Images": [
+                { "Id": "Snö", "Name": "Illustrations/Snö.jpg", "Description": "", "Layout": "col-4" },
+                { "Id": "Södermalm with Ice", "Name": "Illustrations/Södermalm-with-Ice.jpg", "Description": "", "Layout": "col-4" },
+                { "Id": "Lake with Ice", "Name": "Illustrations/Lake-with-Ice.jpg", "Description": "", "Layout": "col-4" }
+            ]
+        },
+        {
+            "Css": "",
+            "Images": [
+                { "Id": "Silhouette Darkness", "Name": "Illustrations/Silhouette-Darkness.jpg", "Description": "", "Layout": "col-6" },
+                { "Id": "Silhouette Lightness", "Name": "Illustrations/Silhouette-Lightness.jpg", "Description": "", "Layout": "col-6" }
+            ]
+        },
+        {
+            "Css": "",
+            "Images": [
+                { "Id": "TG", "Name": "Illustrations/TG.jpg", "Description": "", "Layout": "col-4" },
+                { "Id": "Fest 1", "Name": "Illustrations/Fest-01.jpg", "Description": "", "Layout": "col-4" },
+                { "Id": "Fest 2", "Name": "Illustrations/Fest-02.jpg", "Description": "", "Layout": "col-4" }
+            ]
+        },
+        {
+            "Css": "",
+            "Images": [
+                { "Id": "Greenhouse Architecture", "Name": "Illustrations/Greenhouse-Architecture.jpg", "Description": "", "Layout": "col-4" },
+                { "Id": "Dans-på-Bed-of-Roses", "Name": "Illustrations/Dans-på-Bed-of-Roses.jpg", "Description": "", "Layout": "col-4" },
+                { "Id": "Lotus Eaters Recovered", "Name": "Illustrations/Lotus-Eaters-Recovered.jpg", "Description": "", "Layout": "col-4" }
+            ]
+        },
+        {
+            "Css": "",
+            "Images": [
+                { "Id": "Midsommar1", "Name": "Illustrations/Midsommar.jpg", "Description": "", "Layout": "col-4" },
+                { "Id": "Pattern", "Name": "Illustrations/Pattern.jpg", "Description": "", "Layout": "col-4" },
+                { "Id": "Tjejer", "Name": "Illustrations/Tjejer.jpg", "Description": "", "Layout": "col-4" }
+            ]
+        },
+        {
+            "Css": "",
+            "Images": [
+                { "Id": "Girl Cape", "Name": "Illustrations/Girl-Cape.jpg", "Description": "", "Layout": "col-4" },
+                { "Id": "Girl Skirt", "Name": "Illustrations/Girl-Skirt.jpg", "Description": "", "Layout": "col-4" },
+                { "Id": "Girl Dots", "Name": "Illustrations/Girl-Dots.jpg", "Description": "", "Layout": "col-4" }
+            ]
+        }
+    ]
+}

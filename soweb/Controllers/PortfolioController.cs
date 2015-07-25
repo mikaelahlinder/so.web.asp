@@ -14,23 +14,13 @@ namespace Soweb.Controllers
 
         public ActionResult Piccies()
         {
-            var model = GetPortfolio();
-            model.Groups = model
-                .Groups
-                .Where(x => x.Images.Any(y => y.Name.Contains("Photos/")))
-                .ToArray();
-
+            var model = GetImages("photos");
             return View("Index", model);
         }
 
         public ActionResult Illos()
         {
-            var model = GetPortfolio();
-            model.Groups = model
-                .Groups
-                .Where(x => x.Images.Any(y => y.Name.Contains("Illustrations/")))
-                .ToArray();
-
+            var model = GetImages("illos");
             return View("Index", model);
         }
 
@@ -41,7 +31,10 @@ namespace Soweb.Controllers
                 return RedirectToAction("Index");
             }
 
-            var portfolio = GetPortfolio();
+            var illos = GetImages("illos");
+            var photos = GetImages("photos");
+            var portfolio = new Portfolio { Groups = illos.Groups.Concat(photos.Groups).ToArray() };
+
             var model = new PortfolioDetail();
             model.Selected = portfolio
                 .Groups
@@ -63,9 +56,9 @@ namespace Soweb.Controllers
             return View(model);
         }
 
-        private Portfolio GetPortfolio()
+        private Portfolio GetImages(string filter)
         {
-            var path = System.IO.Path.Combine(Server.MapPath("~/App_Data/"), "portfolio.json");
+            var path = System.IO.Path.Combine(Server.MapPath("~/App_Data/"), string.Format("{0}.json", filter));
             var rawtext = System.IO.File.ReadAllText(path);
             return JsonConvert.DeserializeObject<Portfolio>(rawtext);
         }

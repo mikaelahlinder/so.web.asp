@@ -130,20 +130,14 @@ p, ol, ul {
 
 .font-mega {
     font-size: 90px;
-    word-wrap: break-word;
 }
 
 .font-huge {
     font-size: 60px;
-    word-wrap: break-word;
 }
 
 .font-medium {
     font-size: 25px;
-}
-
-.font-italic {
-    font-style: italic;
 }
 
 .font-uppercase {
@@ -193,8 +187,6 @@ div#hellotext h4 {
     margin: 0;
     z-index: 2;
     border-radius: 0;
-    padding-top: 5px;
-    padding-bottom: 5px;
     background: #fff;
     width: 100%;
     font-family: "Libre Baskerville", "Times New Roman", sans-serif;
@@ -213,13 +205,6 @@ div#hellotext h4 {
 .navbar-custom .links {
     font-size: 18px;
     margin: 10px 0 0 0;
-}
-
-.container .filter {
-    font-size: 18px;
-    position: absolute;
-    left: 50%;
-    top:10px;
 }
 
 .navbar-custom a,
@@ -252,7 +237,7 @@ Modules
 }
 
 .module {
-    padding: 140px 0 50px 0;
+    padding: 70px 0 50px 0;
     position: relative;
     background-repeat: no-repeat;
     background-position: center center;
@@ -505,7 +490,7 @@ Portfolio
 }
 
 .detail-image {
-    max-height: 800px;
+    max-height: 600px;
 }
 
 .related {
