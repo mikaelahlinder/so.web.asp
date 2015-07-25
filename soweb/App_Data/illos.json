@@ -22,7 +22,7 @@
                 { "Id": "Rödbeta", "Name": "Illustrations/Rödbeta.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "Layout": "col-4" },
                 { "Id": "Pistache", "Name": "Illustrations/Pistache.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "Layout": "col-3" },
                 { "Id": "Vanilj", "Name": "Illustrations/Vanilj.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "Layout": "col-5" },
-                { "Id": "Hallon Blåbär", "Name": "Illustrations/Hallon Blåbär.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "Layout": "col-3" }
+                { "Id": "Hallon Blåbär", "Name": "Illustrations/Hallon-Blåbär.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "Layout": "col-3" }
             ]
         },
         {
@@ -98,14 +98,14 @@
             "Css": "",
             "Images": [
                 { "Id": "Greenhouse Architecture", "Name": "Illustrations/Greenhouse-Architecture.jpg", "Description": "", "Layout": "col-4" },
-                { "Id": "Dans-på-Bed-of-Roses", "Name": "Illustrations/Dans-på-Bed-of-Roses.jpg", "Description": "", "Layout": "col-4" },
-                { "Id": "Lotus Eaters Recovered", "Name": "Illustrations/Lotus-Eaters-Recovered.jpg", "Description": "", "Layout": "col-4" }
+                { "Id": "Dans på Bed of Roses", "Name": "Illustrations/Dans-på-Bed-of-Roses.jpg", "Description": "", "Layout": "col-4" },
+                { "Id": "Lotus Eaters", "Name": "Illustrations/Lotus-Eaters-Recovered.jpg", "Description": "", "Layout": "col-4" }
             ]
         },
         {
             "Css": "",
             "Images": [
-                { "Id": "Midsommar1", "Name": "Illustrations/Midsommar.jpg", "Description": "", "Layout": "col-4" },
+                { "Id": "Midsommar", "Name": "Illustrations/Midsommar.jpg", "Description": "", "Layout": "col-4" },
                 { "Id": "Pattern", "Name": "Illustrations/Pattern.jpg", "Description": "", "Layout": "col-4" },
                 { "Id": "Tjejer", "Name": "Illustrations/Tjejer.jpg", "Description": "", "Layout": "col-4" }
             ]
