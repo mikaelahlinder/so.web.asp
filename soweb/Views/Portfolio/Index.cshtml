@@ -4,17 +4,16 @@
     <div class="container">
         @foreach (var group in Model.Groups)
         {
-            <div class="portfolio-grid @group.Css">
+            <div class="portfolio-grid">
                 <div class="grid-sizer"></div>
 
                 @foreach (var img in group.Images)
                 {
                     <div class="portfolio-item @img.Layout">
-                        <a href="@Url.Action("Detail", "Portfolio", new { img.Id })">
-                            <img src="/Assets/Images/@img.Name" />
+                        <a href="@Url.Action("Detail", "Portfolio", new { img.Name })">
+                            <img src="/Assets/Images/@img.Filename" />
                             <div class="portfolio-work-caption">
-                                <h3 class="portfolio-work-title">@img.Id</h3>
-                                @*<div class="portfolio-work-descr">@img.Description</div>*@
+                                <h3 class="portfolio-work-title">@img.Name</h3>
                             </div>
                         </a>
                     </div>

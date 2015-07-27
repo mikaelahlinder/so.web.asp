@@ -4,14 +4,14 @@
     <div class="container cinta">
         <div class="row">
             <div class="col-sm-12">
-                <a href="/Assets/Images/@Model.Selected.Name" target="_blank">
-                    <img src="/Assets/Images/@Model.Selected.Name" class="detail-image">
+                <a href="/Assets/Images/@Model.Selected.Filename" target="_blank">
+                    <img src="/Assets/Images/@Model.Selected.Filename" class="detail-image">
                 </a>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-12">
-                <h5 class="font-play font-huge font-uppercase">@Model.Selected.Id</h5>
+                <h5 class="font-play font-huge font-uppercase">@Model.Selected.Name</h5>
                 <h4 class="font-serif">@Model.Selected.Description</h4>
             </div>
         </div>
@@ -32,8 +32,8 @@
             <div class="row related">
                 @foreach (var img in Model.Related)
                 {
-                    <a href="@Url.Action("Detail", "Portfolio", new { img.Id })">
-                        <img src="/Assets/Images/@img.Name" />
+                    <a href="@Url.Action("Detail", "Portfolio", new { img.Name })">
+                        <img src="/Assets/Images/@img.Filename" />
 
                     </a>
                 }

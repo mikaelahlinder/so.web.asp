@@ -13,9 +13,24 @@ namespace Soweb
             routes.IgnoreRoute("{page}.html");
 
             routes.MapRoute(
+                "illos",
+                "illos",
+                new { controller = "Portfolio", action = "Illos" });
+
+            routes.MapRoute(
+                "piccies",
+                "piccies",
+                new { controller = "Portfolio", action = "Piccies" });
+
+            routes.MapRoute(
+                "detail",
+                "detail/{name}",
+                new { controller = "Portfolio", action = "Detail", name = UrlParameter.Optional });
+
+            routes.MapRoute(
                 "Default",
-                "{controller}/{action}/{id}",
-                new { controller = "Portfolio", action = "Index", id = UrlParameter.Optional });
+                "{controller}/{action}/{name}",
+                new { controller = "Portfolio", action = "Index", name = UrlParameter.Optional });
         }
     }
 }

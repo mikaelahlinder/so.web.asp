@@ -1,207 +1,183 @@
 ﻿{
     "Groups": [
         {
-            "Css": "",
             "Images": [
-                { "Id": "Arrangement 1", "Name": "Photos/Spoons 1.jpg", "Description": "Wooden spoons, fork and whisk  from Emmaus, Slussen. Glass bowl from Stadsmission, Hornsgatan. Cellophane from Material Art Supplies store Kungsgatan. Studio mirror, backdrop and tressel table all conveniently at hand.", "Layout": "col-5" },
-                { "Id": "Arrangement 2", "Name": "Photos/Spoons 2.jpg", "Description": "Wooden spoons, fork and whisk  from Emmaus, Slussen. Glass bowl from Stadsmission, Hornsgatan. Cellophane from Material Art Supplies store Kungsgatan. Studio mirror, backdrop and tressel table all conveniently at hand.", "Layout": "col-4" },
-                { "Id": "Arrangement 3", "Name": "Photos/Spoons 3.jpg", "Description": "Golden teaspoons from Myrorna Ropsten. Faceted glass form Emmaus Hornsgatan. Inverted cake mould from Emmaus Hornsgatan. Gold plate from Stadsmission, Hornsgatan. Cellophane from Material Art Supplies store Kungsgatan. Studio mirror, backdrop and tressel table all conveniently at hand.", "Layout": "col-3" },
-                { "Id": "Arrangement 4", "Name": "Photos/Spoons 4.jpg", "Description": "Engraved forks with bone handle from Emmaus, Slussen. Used sill jar. Silver octagonal plate from Myrorna Hornsgatan. Gold plate from Stadsmission, Hornsgatan. Cellophane from Material Art Supplies store Kungsgatan. Studio mirror, backdrop and tressel table all conveniently at hand.", "Layout": "col-4" }
-            ]
-        },
-        {
-            "Css": "",
-            "Images": [
-                { "Id": "Red Retro 1", "Name": "Photos/Red Objects 1.jpg", "Description": "Grater from Emmaus, Slussen. Pressed flower from Summer 2014, Bysistorg.", "Layout": "col-4" },
-                { "Id": "Red Retro 2", "Name": "Photos/Red Objects 2.jpg", "Description": "Berry picker from Emmaus, Slussen. Pressed flower from Summer 2014, Mosebacke.", "Layout": "col-4" },
-                { "Id": "Red Retro 3", "Name": "Photos/Red Objects 3.jpg", "Description": "Tray stand from Emmaus, Slussen. Pressed flower from Positano holiday, 2014.", "Layout": "col-4" }
-            ]
-        },
-        {
-            "Css": "",
-            "Images": [
-                { "Id": "Metals on Mirror; Silver", "Name": "Photos/Cake plate 1.jpg", "Description": "Vegetable steamer, pie tins from Stadsmission, Hornsgatan. Tea tray from Emmaus, Slussen.", "Layout": "col-6" },
-                { "Id": "Metals on Mirror; Gold", "Name": "Photos/Cake plate 2.jpg", "Description": "Tea tray, gold plate, sugar bowl from Stadsmission, Hornsgatan. Perforated plates from Monki Store Concept office.", "Layout": "col-6" }
-            ]
-        },
-        {
-            "Css": "",
-            "Images": [
-                { "Id": "Tulips Maroon", "Name": "Photos/Flowers 1.jpg", "Description": "Second hand wooden painted tulips from Stadsmission Hornsgatan. White cut tulip bouquet from Mariatorget flower kiosk.", "Layout": "col-4" },
-                { "Id": "Tulips White", "Name": "Photos/Flowers 2.jpg", "Description": "Second hand wooden painted tulips from Stadsmission Hornsgatan. White cut tulip bouquet from Mariatorget flower kiosk.", "Layout": "col-4" },
-                { "Id": "Tulips Rainbow", "Name": "Photos/Flowers 3.jpg", "Description": "Second hand wooden painted tulips from Stadsmission Hornsgatan. White cut tulip bouquet from Mariatorget flower kiosk.", "Layout": "col-4" }
-            ]
-        },
-        {
-            "Css": "",
-            "Images": [
-                { "Id": "Partners 1", "Name": "Photos/Marble 2.jpg", "Description": "Octagonal speckled plastic cylinder from Stadsmission Hornsgatan. Slanted soaptone wine cooler from Emmaus, Slussen.", "Layout": "col-6" },
-                { "Id": "Partners 2", "Name": "Photos/Marble 1.jpg", "Description": "Tom Dixon Mortar and Pestle birthday gift. Carved stone bowl and Christmas bauble from Stadsmission Hornsgatan.", "Layout": "col-6" },
-                { "Id": "Partners 3", "Name": "Photos/Marble 3.jpg", "Description": "Obselete stone ashtray from Stadsmission Hornsgatan. Stone coater from Tulum holiday Mexico.", "Layout": "col-6" }
-            ]
-        },
-        {
-            "Css": "",
-            "Images": [
-                { "Id": "Noir Glass Decanter", "Name": "Photos/Gray 1.jpg", "Description": "Cut glass decanter from Myrorna Götgatan. Hand painted butter paper and used studio polysterene.", "Layout": "col-4" },
-                { "Id": "Noir Glass Chipped Salad Bowl", "Name": "Photos/Gray 2.jpg", "Description": "Cut glass bowl from Emmaus Slussen. Hand ppainted butter paper and used studio polysterene.", "Layout": "col-4" },
-                { "Id": "Noir Glass Cup", "Name": "Photos/Gray 3.jpg", "Description": "Moulded glass cup from Emmaus Slussen. Hand painted butter paper and used studio polysterene.", "Layout": "col-4" }
-            ]
-        },
-        {
-            "Css": "",
-            "Images": [
-                { "Id": "Winter Blooms, Birch  1", "Name": "Photos/Vas 1.jpg", "Description": "Octagonal speckled plastic cylinder from Stadsmission Hornsgatan. White mistletoe from Gingko florist, Hornsgatan.", "Layout": "col-6" },
-                { "Id": "Winter Blooms, Birch 2", "Name": "Photos/Vas 2.jpg", "Description": "Slanted soapstone wine cooler from Emmaus, Slussen. Red Skimmia Japonica flowers from Gingko florist, Hornsgatan.", "Layout": "col-6" }
-            ]
-        },
-        {
-            "Css": "",
-            "Images": [
-                { "Id": "Rödbeta", "Name": "Illustrations/Rödbeta.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "Layout": "col-4" },
-                { "Id": "Pistache", "Name": "Illustrations/Pistache.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "Layout": "col-3" },
-                { "Id": "Vanilj", "Name": "Illustrations/Vanilj.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "Layout": "col-5" },
-                { "Id": "Hallon Blåbär", "Name": "Illustrations/Hallon Blåbär.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "Layout": "col-3" }
-            ]
-        },
-        {
-            "Css": "",
-            "Images": [
-                { "Id": "Hus 1", "Name": "Illustrations/Hus-01.jpg", "Description": "Here goes my super informative description", "Layout": "col-5" },
-                { "Id": "Hus 3", "Name": "Illustrations/Hus-03.jpg", "Description": "Here goes my super informative description", "Layout": "col-3" },
-                { "Id": "Hus 2", "Name": "Illustrations/Hus-02.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
-                { "Id": "Hus 4", "Name": "Illustrations/Hus-04.jpg", "Description": "Here goes my super informative description", "Layout": "col-3" }
-            ]
-        },
-        {
-            "Css": "",
-            "Images": [
-                { "Id": "Koloniträdgård", "Name": "Illustrations/Koloniträdgård.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
-                { "Id": "Balloons Stugas", "Name": "Illustrations/Balloons-Stugas.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
-                { "Id": "Balloons Flowers", "Name": "Illustrations/Balloons-Flowers.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" }
-            ]
-        },
-        {
-            "Css": "",
-            "Images": [
-                { "Id": "Streetstyle", "Name": "Illustrations/Streetstyle.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
-                { "Id": "STHLM", "Name": "Illustrations/STHLM.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
-                { "Id": "Streetstyle Killar", "Name": "Illustrations/Streetstyle-Killar.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" }
-            ]
-        },
-        {
-            "Css": "",
-            "Images": [
-                { "Id": "Portrait 1", "Name": "Illustrations/Portrait-01.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
-                { "Id": "Portrait 2", "Name": "Illustrations/Portrait-02.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
-                { "Id": "Portrait 3", "Name": "Illustrations/Portrait-03.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" }
+                { "Name": "Arrangement 1", "Filename": "Photos/Spoons 1.jpg", "Description": "Wooden spoons, fork and whisk  from Emmaus, Slussen. Glass bowl from Stadsmission, Hornsgatan. Cellophane from Material Art Supplies store Kungsgatan. Studio mirror, backdrop and tressel table all conveniently at hand.", "Layout": "col-5" },
+                { "Name": "Arrangement 2", "Filename": "Photos/Spoons 2.jpg", "Description": "Wooden spoons, fork and whisk  from Emmaus, Slussen. Glass bowl from Stadsmission, Hornsgatan. Cellophane from Material Art Supplies store Kungsgatan. Studio mirror, backdrop and tressel table all conveniently at hand.", "Layout": "col-4" },
+                { "Name": "Arrangement 3", "Filename": "Photos/Spoons 3.jpg", "Description": "Golden teaspoons from Myrorna Ropsten. Faceted glass form Emmaus Hornsgatan. Inverted cake mould from Emmaus Hornsgatan. Gold plate from Stadsmission, Hornsgatan. Cellophane from Material Art Supplies store Kungsgatan. Studio mirror, backdrop and tressel table all conveniently at hand.", "Layout": "col-3" },
+                { "Name": "Arrangement 4", "Filename": "Photos/Spoons 4.jpg", "Description": "Engraved forks with bone handle from Emmaus, Slussen. Used sill jar. Silver octagonal plate from Myrorna Hornsgatan. Gold plate from Stadsmission, Hornsgatan. Cellophane from Material Art Supplies store Kungsgatan. Studio mirror, backdrop and tressel table all conveniently at hand.", "Layout": "col-4" }
             ]
         },
         {
             "Images": [
-                { "Id": "Growing nails", "Name": "Illustrations/Growing-nails.jpg", "Description": "Here goes my super informative description", "Layout": "col-12" }
+                { "Name": "Red Retro 1", "Filename": "Photos/Red Objects 1.jpg", "Description": "Grater from Emmaus, Slussen. Pressed flower from Summer 2014, Bysistorg.", "Layout": "col-4" },
+                { "Name": "Red Retro 2", "Filename": "Photos/Red Objects 2.jpg", "Description": "Berry picker from Emmaus, Slussen. Pressed flower from Summer 2014, Mosebacke.", "Layout": "col-4" },
+                { "Name": "Red Retro 3", "Filename": "Photos/Red Objects 3.jpg", "Description": "Tray stand from Emmaus, Slussen. Pressed flower from Positano holiday, 2014.", "Layout": "col-4" }
             ]
         },
         {
-            "Css": "",
             "Images": [
-                { "Id": "Interior Trends", "Name": "Illustrations/Interior-Trends.jpg", "Description": "Here goes my super informative description", "Layout": "col-5" },
-                { "Id": "Interior Wishlist", "Name": "Illustrations/Interior-Wishlist.jpg", "Description": "Here goes my super informative description", "Layout": "col-3" },
-                { "Id": "Interior Coral", "Name": "Illustrations/Interior-Coral.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
-                { "Id": "Interior Forest", "Name": "Illustrations/Interior-Forest.jpg", "Description": "Here goes my super informative description", "Layout": "col-3" }
+                { "Name": "Metals on Mirror; Silver", "Filename": "Photos/Cake plate 1.jpg", "Description": "Vegetable steamer, pie tins from Stadsmission, Hornsgatan. Tea tray from Emmaus, Slussen.", "Layout": "col-6" },
+                { "Name": "Metals on Mirror; Gold", "Filename": "Photos/Cake plate 2.jpg", "Description": "Tea tray, gold plate, sugar bowl from Stadsmission, Hornsgatan. Perforated plates from Monki Store Concept office.", "Layout": "col-6" }
             ]
         },
         {
-            "Css": "",
             "Images": [
-                { "Id": "Gamla Stan", "Name": "Illustrations/Gamla-Stan.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
-                { "Id": "Kungsträdgården Confetti Machines", "Name": "Illustrations/Kungsträdgården-Confetti-Machines.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
-                { "Id": "Gröna Lund", "Name": "Illustrations/Gröna-Lund.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" }
+                { "Name": "Tulips Maroon", "Filename": "Photos/Flowers 1.jpg", "Description": "Second hand wooden painted tulips from Stadsmission Hornsgatan. White cut tulip bouquet from Mariatorget flower kiosk.", "Layout": "col-4" },
+                { "Name": "Tulips White", "Filename": "Photos/Flowers 2.jpg", "Description": "Second hand wooden painted tulips from Stadsmission Hornsgatan. White cut tulip bouquet from Mariatorget flower kiosk.", "Layout": "col-4" },
+                { "Name": "Tulips Rainbow", "Filename": "Photos/Flowers 3.jpg", "Description": "Second hand wooden painted tulips from Stadsmission Hornsgatan. White cut tulip bouquet from Mariatorget flower kiosk.", "Layout": "col-4" }
             ]
         },
         {
-            "Css": "",
             "Images": [
-                { "Id": "Archipelago", "Name": "Illustrations/Archipelago.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
-                { "Id": "Sommar", "Name": "Illustrations/Sommar.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
-                { "Id": "Sailing", "Name": "Illustrations/Sailing.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" }
+                { "Name": "Partners 1", "Filename": "Photos/Marble 2.jpg", "Description": "Octagonal speckled plastic cylinder from Stadsmission Hornsgatan. Slanted soaptone wine cooler from Emmaus, Slussen.", "Layout": "col-6" },
+                { "Name": "Partners 2", "Filename": "Photos/Marble 1.jpg", "Description": "Tom Dixon Mortar and Pestle birthday gift. Carved stone bowl and Christmas bauble from Stadsmission Hornsgatan.", "Layout": "col-6" },
+                { "Name": "Partners 3", "Filename": "Photos/Marble 3.jpg", "Description": "Obselete stone ashtray from Stadsmission Hornsgatan. Stone coater from Tulum holiday Mexico.", "Layout": "col-6" }
             ]
         },
         {
-            "Css": "",
             "Images": [
-                { "Id": "Snö", "Name": "Illustrations/Snö.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
-                { "Id": "Södermalm with Ice", "Name": "Illustrations/Södermalm-with-Ice.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
-                { "Id": "Lake with Ice", "Name": "Illustrations/Lake-with-Ice.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" }
+                { "Name": "Noir Glass Decanter", "Filename": "Photos/Gray 1.jpg", "Description": "Cut glass decanter from Myrorna Götgatan. Hand painted butter paper and used studio polysterene.", "Layout": "col-4" },
+                { "Name": "Noir Glass Chipped Salad Bowl", "Filename": "Photos/Gray 2.jpg", "Description": "Cut glass bowl from Emmaus Slussen. Hand ppainted butter paper and used studio polysterene.", "Layout": "col-4" },
+                { "Name": "Noir Glass Cup", "Filename": "Photos/Gray 3.jpg", "Description": "Moulded glass cup from Emmaus Slussen. Hand painted butter paper and used studio polysterene.", "Layout": "col-4" }
             ]
         },
         {
-            "Css": "",
             "Images": [
-                { "Id": "Silhouette Darkness", "Name": "Illustrations/Silhouette-Darkness.jpg", "Description": "Here goes my super informative description", "Layout": "col-6" },
-                { "Id": "Silhouette Lightness", "Name": "Illustrations/Silhouette-Lightness.jpg", "Description": "Here goes my super informative description", "Layout": "col-6" }
+                { "Name": "Winter Blooms, Birch  1", "Filename": "Photos/Vas 1.jpg", "Description": "Octagonal speckled plastic cylinder from Stadsmission Hornsgatan. White mistletoe from Gingko florist, Hornsgatan.", "Layout": "col-6" },
+                { "Name": "Winter Blooms, Birch 2", "Filename": "Photos/Vas 2.jpg", "Description": "Slanted soapstone wine cooler from Emmaus, Slussen. Red Skimmia Japonica flowers from Gingko florist, Hornsgatan.", "Layout": "col-6" }
             ]
         },
         {
-            "Css": "",
+
             "Images": [
-                { "Id": "Greenhouse Architecture", "Name": "Illustrations/Greenhouse-Architecture.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
-                { "Id": "Dans-på-Bed-of-Roses", "Name": "Illustrations/Dans-på-Bed-of-Roses.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
-                { "Id": "Lotus Eaters Recovered", "Name": "Illustrations/Lotus-Eaters-Recovered.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" }
+                { "Name": "Rödbeta", "Filename": "Illustrations/Rödbeta.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "Layout": "col-4" },
+                { "Name": "Pistache", "Filename": "Illustrations/Pistache.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "Layout": "col-3" },
+                { "Name": "Vanilj", "Filename": "Illustrations/Vanilj.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "Layout": "col-5" },
+                { "Name": "Hallon Blåbär", "Filename": "Illustrations/Hallon Blåbär.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "Layout": "col-3" }
             ]
         },
         {
-            "Css": "",
             "Images": [
-                { "Id": "Girl Cape", "Name": "Illustrations/Girl-Cape.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
-                { "Id": "Girl Skirt", "Name": "Illustrations/Girl-Skirt.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
-                { "Id": "Girl Dots", "Name": "Illustrations/Girl-Dots.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" }
+                { "Name": "Hus 1", "Filename": "Illustrations/Hus-01.jpg", "Description": "Here goes my super informative description", "Layout": "col-5" },
+                { "Name": "Hus 3", "Filename": "Illustrations/Hus-03.jpg", "Description": "Here goes my super informative description", "Layout": "col-3" },
+                { "Name": "Hus 2", "Filename": "Illustrations/Hus-02.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
+                { "Name": "Hus 4", "Filename": "Illustrations/Hus-04.jpg", "Description": "Here goes my super informative description", "Layout": "col-3" }
             ]
         },
         {
-            "Css": "",
             "Images": [
-                { "Id": "Midsommar1", "Name": "Illustrations/Midsommar.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
-                { "Id": "Pattern", "Name": "Illustrations/Pattern.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
-                { "Id": "Tjejer", "Name": "Illustrations/Tjejer.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" }
+                { "Name": "Koloniträdgård", "Filename": "Illustrations/Koloniträdgård.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
+                { "Name": "Balloons Stugas", "Filename": "Illustrations/Balloons-Stugas.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
+                { "Name": "Balloons Flowers", "Filename": "Illustrations/Balloons-Flowers.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" }
             ]
         },
         {
-            "Css": "",
             "Images": [
-                { "Id": "TG", "Name": "Illustrations/TG.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
-                { "Id": "Fest 1", "Name": "Illustrations/Fest-01.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
-                { "Id": "Fest 2", "Name": "Illustrations/Fest-02.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" }
+                { "Name": "Streetstyle", "Filename": "Illustrations/Streetstyle.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
+                { "Name": "STHLM", "Filename": "Illustrations/STHLM.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
+                { "Name": "Streetstyle Killar", "Filename": "Illustrations/Streetstyle-Killar.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" }
             ]
         },
         {
-            "Css": "",
             "Images": [
-                { "Id": "Kanelbulle", "Name": "Illustrations/Kanelbulle.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
-                { "Id": "Falu Älg", "Name": "Illustrations/Falu-Älg.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
-                { "Id": "Baking Lesson", "Name": "Illustrations/Baking-Lesson.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" }
+                { "Name": "Portrait 1", "Filename": "Illustrations/Portrait-01.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
+                { "Name": "Portrait 2", "Filename": "Illustrations/Portrait-02.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
+                { "Name": "Portrait 3", "Filename": "Illustrations/Portrait-03.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" }
             ]
         },
         {
-            "Css": "",
             "Images": [
-                { "Id": "Fika Tid", "Name": "Illustrations/Fika-Tid.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
-                { "Id": "Slussen Sunrise", "Name": "Illustrations/Slussen-Sunrise.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
-                { "Id": "Sights", "Name": "Illustrations/Sights.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" }
+                { "Name": "Growing nails", "Filename": "Illustrations/Growing-nails.jpg", "Description": "Here goes my super informative description", "Layout": "col-12" }
             ]
         },
         {
-            "Css": "",
             "Images": [
-                { "Id": "Tjena läget", "Name": "Illustrations/Tjena-Läget.jpg", "Description": "Here goes my super informative description", "Layout": "col-6" },
-                { "Id": "Lagom", "Name": "Illustrations/Lagom.jpg", "Description": "Here goes my super informative description", "Layout": "col-6" }
+                { "Name": "Interior Trends", "Filename": "Illustrations/Interior-Trends.jpg", "Description": "Here goes my super informative description", "Layout": "col-5" },
+                { "Name": "Interior Wishlist", "Filename": "Illustrations/Interior-Wishlist.jpg", "Description": "Here goes my super informative description", "Layout": "col-3" },
+                { "Name": "Interior Coral", "Filename": "Illustrations/Interior-Coral.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
+                { "Name": "Interior Forest", "Filename": "Illustrations/Interior-Forest.jpg", "Description": "Here goes my super informative description", "Layout": "col-3" }
             ]
         },
         {
-            "Css": "",
             "Images": [
-                { "Id": "Uggla", "Name": "Illustrations/Uggla.jpg", "Description": "Here goes my super informative description", "Layout": "col-6" },
-                { "Id": "House Party", "Name": "Illustrations/House-Party.jpg", "Description": "Here goes my super informative description", "Layout": "col-6" }
+                { "Name": "Gamla Stan", "Filename": "Illustrations/Gamla-Stan.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
+                { "Name": "Kungsträdgården Confetti Machines", "Filename": "Illustrations/Kungsträdgården-Confetti-Machines.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
+                { "Name": "Gröna Lund", "Filename": "Illustrations/Gröna-Lund.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" }
+            ]
+        },
+        {
+            "Images": [
+                { "Name": "Archipelago", "Filename": "Illustrations/Archipelago.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
+                { "Name": "Sommar", "Filename": "Illustrations/Sommar.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
+                { "Name": "Sailing", "Filename": "Illustrations/Sailing.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" }
+            ]
+        },
+        {
+            "Images": [
+                { "Name": "Snö", "Filename": "Illustrations/Snö.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
+                { "Name": "Södermalm with Ice", "Filename": "Illustrations/Södermalm-with-Ice.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
+                { "Name": "Lake with Ice", "Filename": "Illustrations/Lake-with-Ice.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" }
+            ]
+        },
+        {
+            "Images": [
+                { "Name": "Silhouette Darkness", "Filename": "Illustrations/Silhouette-Darkness.jpg", "Description": "Here goes my super informative description", "Layout": "col-6" },
+                { "Name": "Silhouette Lightness", "Filename": "Illustrations/Silhouette-Lightness.jpg", "Description": "Here goes my super informative description", "Layout": "col-6" }
+            ]
+        },
+        {
+            "Images": [
+                { "Name": "Greenhouse Architecture", "Filename": "Illustrations/Greenhouse-Architecture.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
+                { "Name": "Dans-på-Bed-of-Roses", "Filename": "Illustrations/Dans-på-Bed-of-Roses.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
+                { "Name": "Lotus Eaters Recovered", "Filename": "Illustrations/Lotus-Eaters-Recovered.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" }
+            ]
+        },
+        {
+            "Images": [
+                { "Name": "Girl Cape", "Filename": "Illustrations/Girl-Cape.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
+                { "Name": "Girl Skirt", "Filename": "Illustrations/Girl-Skirt.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
+                { "Name": "Girl Dots", "Filename": "Illustrations/Girl-Dots.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" }
+            ]
+        },
+        {
+            "Images": [
+                { "Name": "Midsommar1", "Filename": "Illustrations/Midsommar.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
+                { "Name": "Pattern", "Filename": "Illustrations/Pattern.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
+                { "Name": "Tjejer", "Filename": "Illustrations/Tjejer.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" }
+            ]
+        },
+        {
+            "Images": [
+                { "Name": "TG", "Filename": "Illustrations/TG.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
+                { "Name": "Fest 1", "Filename": "Illustrations/Fest-01.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
+                { "Name": "Fest 2", "Filename": "Illustrations/Fest-02.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" }
+            ]
+        },
+        {
+            "Images": [
+                { "Name": "Kanelbulle", "Filename": "Illustrations/Kanelbulle.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
+                { "Name": "Falu Älg", "Filename": "Illustrations/Falu-Älg.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
+                { "Name": "Baking Lesson", "Filename": "Illustrations/Baking-Lesson.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" }
+            ]
+        },
+        {
+            "Images": [
+                { "Name": "Fika Tid", "Filename": "Illustrations/Fika-Tid.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
+                { "Name": "Slussen Sunrise", "Filename": "Illustrations/Slussen-Sunrise.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" },
+                { "Name": "Sights", "Filename": "Illustrations/Sights.jpg", "Description": "Here goes my super informative description", "Layout": "col-4" }
+            ]
+        },
+        {
+            "Images": [
+                { "Name": "Tjena läget", "Filename": "Illustrations/Tjena-Läget.jpg", "Description": "Here goes my super informative description", "Layout": "col-6" },
+                { "Name": "Lagom", "Filename": "Illustrations/Lagom.jpg", "Description": "Here goes my super informative description", "Layout": "col-6" }
+            ]
+        },
+        {
+            "Images": [
+                { "Name": "Uggla", "Filename": "Illustrations/Uggla.jpg", "Description": "Here goes my super informative description", "Layout": "col-6" },
+                { "Name": "House Party", "Filename": "Illustrations/House-Party.jpg", "Description": "Here goes my super informative description", "Layout": "col-6" }
             ]
         }
     ]
