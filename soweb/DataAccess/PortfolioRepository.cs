@@ -35,7 +35,12 @@ namespace Soweb.DataAccess
             var illos = GetIllos().Groups;
             var piccies = GetPiccies().Groups;
             var allgroups = piccies.Concat(illos);
-            var selectedGroup = allgroups.First(x => x.Images.Any(image => Equals(image.Id, id)));
+            var selectedGroup = allgroups.FirstOrDefault(x => x.Images.Any(image => Equals(image.Id, id)));
+
+            if (selectedGroup == null)
+            {
+                return null;
+            }
 
             return new PortfolioDetail
             {
