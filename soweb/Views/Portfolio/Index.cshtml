@@ -1,4 +1,10 @@
 ﻿@model Soweb.Models.Portfolio
+@{
+    string actionName = HttpContext.Current.Request.RequestContext.RouteData.Values["action"].ToString();
+    string title = actionName.Equals("Piccies") ? "Piccies |" : "Illo's |";
+    title = actionName.Equals("Index") ? string.Empty : title;
+}
+@section Title { @title }
 
 <section class="module">
     <div class="container">
@@ -10,7 +16,7 @@
                 @foreach (var img in group.Images)
                 {
                     <div class="portfolio-item @img.Layout">
-                        <a href="@Url.Action("Detail", "Portfolio", new { img.Name })">
+                        <a href="@Url.Action("Detail", "Portfolio", new { img.Id })">
                             <img src="/Assets/Images/@img.Filename" />
                             <div class="portfolio-work-caption">
                                 <h3 class="portfolio-work-title">@img.Name</h3>

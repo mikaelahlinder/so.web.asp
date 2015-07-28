@@ -138,6 +138,10 @@ p, ol, ul {
     font-size: 25px;
 }
 
+.font-xsmall {
+    font-size: 12px;
+}
+
 .font-uppercase {
     text-transform: uppercase;
 }

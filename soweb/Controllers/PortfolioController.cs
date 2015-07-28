@@ -32,9 +32,9 @@ namespace Soweb.Controllers
             return View("Index", illos);
         }
 
-        public ActionResult Detail(string name)
+        public ActionResult Detail(string id)
         {
-            var detail = _portfolioRepository.GetDetail(name);
+            var detail = _portfolioRepository.GetDetail(id);
 
             if (detail == null || detail.Selected == null)
             {

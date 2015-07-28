@@ -25,9 +25,9 @@ namespace Soweb.DataAccess
             return GetIllos();
         }
 
-        PortfolioDetail IPortfolioRepository.GetDetail(string name)
+        PortfolioDetail IPortfolioRepository.GetDetail(string id)
         {
-            if (string.IsNullOrEmpty(name))
+            if (string.IsNullOrEmpty(id))
             {
                 return null;
             }
@@ -35,12 +35,12 @@ namespace Soweb.DataAccess
             var illos = GetIllos().Groups;
             var piccies = GetPiccies().Groups;
             var allgroups = piccies.Concat(illos);
-            var selectedGroup = allgroups.First(x => x.Images.Any(image => Equals(image.Name, name)));
+            var selectedGroup = allgroups.First(x => x.Images.Any(image => Equals(image.Id, id)));
 
             return new PortfolioDetail
             {
-                Selected = selectedGroup.Images.FirstOrDefault(x => Equals(x.Name, name)),
-                Related = selectedGroup.Images.Where(x => !Equals(x.Name, name))
+                Selected = selectedGroup.Images.FirstOrDefault(x => Equals(x.Id, id)),
+                Related = selectedGroup.Images.Where(x => !Equals(x.Id, id))
             };
         }
 

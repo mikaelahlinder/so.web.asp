@@ -8,6 +8,6 @@ namespace Soweb.DataAccess
 
         Portfolio GetIllos();
 
-        PortfolioDetail GetDetail(string name);
+        PortfolioDetail GetDetail(string id);
     }
 }

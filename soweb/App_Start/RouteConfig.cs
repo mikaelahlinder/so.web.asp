@@ -24,13 +24,13 @@ namespace Soweb
 
             routes.MapRoute(
                 "detail",
-                "detail/{name}",
-                new { controller = "Portfolio", action = "Detail", name = UrlParameter.Optional });
+                "detail/{id}",
+                new { controller = "Portfolio", action = "Detail", id = UrlParameter.Optional });
 
             routes.MapRoute(
                 "Default",
-                "{controller}/{action}/{name}",
-                new { controller = "Portfolio", action = "Index", name = UrlParameter.Optional });
+                "{controller}/{action}/{id}",
+                new { controller = "Portfolio", action = "Index", id = UrlParameter.Optional });
         }
     }
 }

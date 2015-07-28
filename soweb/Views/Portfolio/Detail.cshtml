@@ -1,4 +1,5 @@
 ﻿@model Soweb.Models.PortfolioDetail
+@section Title { @Model.Selected.Name | }
 
 <section class="module">
     <div class="container cinta">
@@ -13,12 +14,13 @@
             <div class="col-sm-12">
                 <h5 class="font-play font-huge font-uppercase">@Model.Selected.Name</h5>
                 <h4 class="font-serif">@Model.Selected.Description</h4>
+                <div class="font-xsmall font-serif">
+                    @Html.Raw(Model.Selected.ExtraInfo)
+                </div>
             </div>
         </div>
     </div>
 </section>
-
-<hr class="divider">
 
 @if (Model.Related.Any())
 {
@@ -32,7 +34,7 @@
             <div class="row related">
                 @foreach (var img in Model.Related)
                 {
-                    <a href="@Url.Action("Detail", "Portfolio", new { img.Name })">
+                    <a href="@Url.Action("Detail", "Portfolio", new { img.Id })">
                         <img src="/Assets/Images/@img.Filename" />
 
                     </a>

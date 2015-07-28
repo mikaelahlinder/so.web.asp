@@ -2,106 +2,106 @@
     "Groups": [
         {
             "Images": [
-                { "Name": "Interior Forest", "Filename": "Illustrations/Interior-Forest.jpg", "Description": "", "Layout": "col-5" },
-                { "Name": "Interior Trends", "Filename": "Illustrations/Interior-Trends.jpg", "Description": "", "Layout": "col-3" },
-                { "Name": "Interior Coral", "Filename": "Illustrations/Interior-Coral.jpg", "Description": "", "Layout": "col-4" },
-                { "Name": "Interior Wishlist", "Filename": "Illustrations/Interior-Wishlist.jpg", "Description": "", "Layout": "col-3" }
+                { "Name": "Interior Forest", "Filename": "Illustrations/Interior-Forest.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-5" },
+                { "Name": "Interior Trends", "Filename": "Illustrations/Interior-Trends.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-3" },
+                { "Name": "Interior Coral", "Filename": "Illustrations/Interior-Coral.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-4" },
+                { "Name": "Interior Wishlist", "Filename": "Illustrations/Interior-Wishlist.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-3" }
             ]
         },
         {
             "Images": [
-                { "Name": "Koloniträdgård", "Filename": "Illustrations/Koloniträdgård.jpg", "Description": "", "Layout": "col-6" },
-                { "Name": "Balloons Stugas", "Filename": "Illustrations/Balloons-Stugas.jpg", "Description": "", "Layout": "col-5" }
+                { "Name": "Koloniträdgård", "Filename": "Illustrations/Koloniträdgård.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-6" },
+                { "Name": "Balloons Stugas", "Filename": "Illustrations/Balloons-Stugas.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-5" }
             ]
         },
         {
             "Images": [
-                { "Name": "Rödbeta", "Filename": "Illustrations/Rödbeta.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "Layout": "col-4" },
-                { "Name": "Pistache", "Filename": "Illustrations/Pistache.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "Layout": "col-3" },
-                { "Name": "Vanilj", "Filename": "Illustrations/Vanilj.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "Layout": "col-5" },
-                { "Name": "Hallon Blåbär", "Filename": "Illustrations/Hallon-Blåbär.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "Layout": "col-3" }
+                { "Name": "Rödbeta", "Filename": "Illustrations/Rödbeta.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "ExtraInfo": "", "Layout": "col-4" },
+                { "Name": "Pistache", "Filename": "Illustrations/Pistache.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "ExtraInfo": "", "Layout": "col-3" },
+                { "Name": "Vanilj", "Filename": "Illustrations/Vanilj.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "ExtraInfo": "", "Layout": "col-5" },
+                { "Name": "Hallon Blåbär", "Filename": "Illustrations/Hallon-Blåbär.jpg", "Description": "Ingredient Drawing for Cupcake STHLM", "ExtraInfo": "", "Layout": "col-3" }
             ]
         },
         {
             "Images": [
-                { "Name": "Hus 1", "Filename": "Illustrations/Hus-01.jpg", "Description": "", "Layout": "col-5" },
-                { "Name": "Hus 3", "Filename": "Illustrations/Hus-03.jpg", "Description": "", "Layout": "col-3" },
-                { "Name": "Hus 2", "Filename": "Illustrations/Hus-02.jpg", "Description": "", "Layout": "col-4" },
-                { "Name": "Hus 4", "Filename": "Illustrations/Hus-04.jpg", "Description": "", "Layout": "col-3" }
+                { "Name": "Hus 1", "Filename": "Illustrations/Hus-01.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-5" },
+                { "Name": "Hus 3", "Filename": "Illustrations/Hus-03.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-3" },
+                { "Name": "Hus 2", "Filename": "Illustrations/Hus-02.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-4" },
+                { "Name": "Hus 4", "Filename": "Illustrations/Hus-04.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-3" }
             ]
         },
         {
             "Images": [
-                { "Name": "STHLM", "Filename": "Illustrations/STHLM.jpg", "Description": "", "Layout": "col-4" },
-                { "Name": "Streetstyle", "Filename": "Illustrations/Streetstyle.jpg", "Description": "", "Layout": "col-4" },
-                { "Name": "Streetstyle Killar", "Filename": "Illustrations/Streetstyle-Killar.jpg", "Description": "", "Layout": "col-4" }
+                { "Name": "STHLM", "Filename": "Illustrations/STHLM.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-4" },
+                { "Name": "Streetstyle", "Filename": "Illustrations/Streetstyle.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-4" },
+                { "Name": "Streetstyle Killar", "Filename": "Illustrations/Streetstyle-Killar.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-4" }
             ]
         },
         {
             "Images": [
-                { "Name": "Portrait 1", "Filename": "Illustrations/Portrait-01.jpg", "Description": "", "Layout": "col-4" },
-                { "Name": "Portrait 2", "Filename": "Illustrations/Portrait-02.jpg", "Description": "", "Layout": "col-4" },
-                { "Name": "Portrait 3", "Filename": "Illustrations/Portrait-03.jpg", "Description": "", "Layout": "col-4" }
+                { "Name": "Portrait 1", "Filename": "Illustrations/Portrait-01.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-4" },
+                { "Name": "Portrait 2", "Filename": "Illustrations/Portrait-02.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-4" },
+                { "Name": "Portrait 3", "Filename": "Illustrations/Portrait-03.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-4" }
             ]
         },
         {
             "Images": [
-                { "Name": "Growing nails", "Filename": "Illustrations/Growing-nails.jpg", "Description": "", "Layout": "col-12" }
+                { "Name": "Growing nails", "Filename": "Illustrations/Growing-nails.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-12" }
             ]
         },
         {
             "Images": [
-                { "Name": "Gamla Stan", "Filename": "Illustrations/Gamla-Stan.jpg", "Description": "", "Layout": "col-4" },
-                { "Name": "Kungsträdgården Confetti Machines", "Filename": "Illustrations/Kungsträdgården-Confetti-Machines.jpg", "Description": "", "Layout": "col-4" },
-                { "Name": "Gröna Lund", "Filename": "Illustrations/Gröna-Lund.jpg", "Description": "", "Layout": "col-4" }
+                { "Name": "Gamla Stan", "Filename": "Illustrations/Gamla-Stan.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-4" },
+                { "Name": "Kungsträdgården Confetti Machines", "Filename": "Illustrations/Kungsträdgården-Confetti-Machines.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-4" },
+                { "Name": "Gröna Lund", "Filename": "Illustrations/Gröna-Lund.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-4" }
             ]
         },
         {
             "Images": [
-                { "Name": "Archipelago", "Filename": "Illustrations/Archipelago.jpg", "Description": "", "Layout": "col-4" },
-                { "Name": "Sommar", "Filename": "Illustrations/Sommar.jpg", "Description": "", "Layout": "col-4" },
-                { "Name": "Sailing", "Filename": "Illustrations/Sailing.jpg", "Description": "", "Layout": "col-4" }
+                { "Name": "Archipelago", "Filename": "Illustrations/Archipelago.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-4" },
+                { "Name": "Sommar", "Filename": "Illustrations/Sommar.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-4" },
+                { "Name": "Sailing", "Filename": "Illustrations/Sailing.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-4" }
             ]
         },
         {
             "Images": [
-                { "Name": "Snö", "Filename": "Illustrations/Snö.jpg", "Description": "", "Layout": "col-4" },
-                { "Name": "Södermalm with Ice", "Filename": "Illustrations/Södermalm-with-Ice.jpg", "Description": "", "Layout": "col-4" },
-                { "Name": "Lake with Ice", "Filename": "Illustrations/Lake-with-Ice.jpg", "Description": "", "Layout": "col-4" }
+                { "Name": "Snö", "Filename": "Illustrations/Snö.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-4" },
+                { "Name": "Södermalm with Ice", "Filename": "Illustrations/Södermalm-with-Ice.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-4" },
+                { "Name": "Lake with Ice", "Filename": "Illustrations/Lake-with-Ice.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-4" }
             ]
         },
         {
             "Images": [
-                { "Name": "Silhouette Darkness", "Filename": "Illustrations/Silhouette-Darkness.jpg", "Description": "", "Layout": "col-6" },
-                { "Name": "Silhouette Lightness", "Filename": "Illustrations/Silhouette-Lightness.jpg", "Description": "", "Layout": "col-6" }
+                { "Name": "Silhouette Darkness", "Filename": "Illustrations/Silhouette-Darkness.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-6" },
+                { "Name": "Silhouette Lightness", "Filename": "Illustrations/Silhouette-Lightness.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-6" }
             ]
         },
         {
             "Images": [
-                { "Name": "TG", "Filename": "Illustrations/TG.jpg", "Description": "", "Layout": "col-4" },
-                { "Name": "Fest 1", "Filename": "Illustrations/Fest-01.jpg", "Description": "", "Layout": "col-4" },
-                { "Name": "Fest 2", "Filename": "Illustrations/Fest-02.jpg", "Description": "", "Layout": "col-4" }
+                { "Name": "TG", "Filename": "Illustrations/TG.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-4" },
+                { "Name": "Fest 1", "Filename": "Illustrations/Fest-01.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-4" },
+                { "Name": "Fest 2", "Filename": "Illustrations/Fest-02.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-4" }
             ]
         },
         {
             "Images": [
-                { "Name": "Greenhouse Architecture", "Filename": "Illustrations/Greenhouse-Architecture.jpg", "Description": "", "Layout": "col-4" },
-                { "Name": "Dans på Bed of Roses", "Filename": "Illustrations/Dans-på-Bed-of-Roses.jpg", "Description": "", "Layout": "col-4" },
-                { "Name": "Lotus Eaters", "Filename": "Illustrations/Lotus-Eaters-Recovered.jpg", "Description": "", "Layout": "col-4" }
+                { "Name": "Greenhouse Architecture", "Filename": "Illustrations/Greenhouse-Architecture.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-4" },
+                { "Name": "Dans på Bed of Roses", "Filename": "Illustrations/Dans-på-Bed-of-Roses.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-4" },
+                { "Name": "Lotus Eaters", "Filename": "Illustrations/Lotus-Eaters-Recovered.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-4" }
             ]
         },
         {
             "Images": [
-                { "Name": "Midsommar", "Filename": "Illustrations/Midsommar.jpg", "Description": "", "Layout": "col-4" },
-                { "Name": "Pattern", "Filename": "Illustrations/Pattern.jpg", "Description": "", "Layout": "col-4" },
-                { "Name": "Tjejer", "Filename": "Illustrations/Tjejer.jpg", "Description": "", "Layout": "col-4" }
+                { "Name": "Midsommar", "Filename": "Illustrations/Midsommar.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-4" },
+                { "Name": "Pattern", "Filename": "Illustrations/Pattern.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-4" },
+                { "Name": "Tjejer", "Filename": "Illustrations/Tjejer.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-4" }
             ]
         },
         {
             "Images": [
-                { "Name": "Girl Cape", "Filename": "Illustrations/Girl-Cape.jpg", "Description": "", "Layout": "col-4" },
-                { "Name": "Girl Skirt", "Filename": "Illustrations/Girl-Skirt.jpg", "Description": "", "Layout": "col-4" },
-                { "Name": "Girl Dots", "Filename": "Illustrations/Girl-Dots.jpg", "Description": "", "Layout": "col-4" }
+                { "Name": "Girl Cape", "Filename": "Illustrations/Girl-Cape.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-4" },
+                { "Name": "Girl Skirt", "Filename": "Illustrations/Girl-Skirt.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-4" },
+                { "Name": "Girl Dots", "Filename": "Illustrations/Girl-Dots.jpg", "Description": "", "ExtraInfo": "", "Layout": "col-4" }
             ]
         }
     ]
