@@ -9,7 +9,7 @@
     $(document).ready(function () {
 
         $(window).scroll(function () {
-            if ($(window).scrollTop() > 100)
+            if ($(window).scrollTop() > 100 + $('#hello').height())
                 $('.scroll-up').fadeIn();
             else
                 $('.scroll-up').fadeOut();
@@ -20,7 +20,7 @@
         }).resize();
 
         $('a[href="#totop"]').click(function () {
-            $('html, body').animate({ scrollTop: $(window).height() }, 'fast');
+            $('html, body').animate({ scrollTop: 0 + $('#hello').height() }, 'fast');
             return false;
         });
 
