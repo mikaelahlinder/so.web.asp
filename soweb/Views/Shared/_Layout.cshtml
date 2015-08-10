@@ -48,10 +48,9 @@
                     <a href="/about">hello!</a>
                 </div>
             </nav>
-
+            <div id="nav-spacer"></div>
             @RenderBody()
-
-        </div>
+            </div>
 
         <div class="scroll-up">
             <a href="#totop"><i class="ion-ios-arrow-thin-up"></i></a>
@@ -63,12 +62,17 @@
         {
             <script type="text/javascript">
                 $(document).ready(function () {
-                    var navheight = $(window).height() - $('.navbar').height();
+                    var windowheight = $(window).height();
+                    var navbarheight = $('.navbar').height();
                     $(window).scroll(function() {
-                        if ($(window).scrollTop() > navheight)
-                            $('nav').addClass('fixed');
-                        else
-                            $('nav').removeClass('fixed');
+                        if ($(window).scrollTop() > windowheight) {
+                            $('.navbar').addClass('fixed');
+                            $('#nav-spacer').css('height', navbarheight);
+                        }
+                        else {
+                            $('.navbar').removeClass('fixed');
+                            $('#nav-spacer').css('height', 0);
+                        }
                     }).scroll();
                 });
             </script>
