@@ -24,7 +24,7 @@
         {
             "Images": [
                 { "Name": "Tulips Maroon", "Filename": "Photos/Tulips-Maroon.jpg", "Description": "Second hand wooden painted tulips from Stadsmission Hornsgatan. White cut tulip bouquet from Mariatorget flower kiosk.", "ExtraInfo": "<a href='http://www.joannahuttnerlemoine.portfoliobox.se' target='_blank'>Photographer Joanna Hüttner Lemoine</a>", "Layout": "col-4" },
-                { "Name": "Tulips White", "Filename": "Photos/Tulips-Maroon.jpg", "Description": "Second hand wooden painted tulips from Stadsmission Hornsgatan. White cut tulip bouquet from Mariatorget flower kiosk.", "ExtraInfo": "<a href='http://www.joannahuttnerlemoine.portfoliobox.se' target='_blank'>Photographer Joanna Hüttner Lemoine</a>", "Layout": "col-4" },
+                { "Name": "Tulips White", "Filename": "Photos/Tulips-White.jpg", "Description": "Second hand wooden painted tulips from Stadsmission Hornsgatan. White cut tulip bouquet from Mariatorget flower kiosk.", "ExtraInfo": "<a href='http://www.joannahuttnerlemoine.portfoliobox.se' target='_blank'>Photographer Joanna Hüttner Lemoine</a>", "Layout": "col-4" },
                 { "Name": "Tulips Rainbow", "Filename": "Photos/Tulips-Rainbow.jpg", "Description": "Second hand wooden painted tulips from Stadsmission Hornsgatan. White cut tulip bouquet from Mariatorget flower kiosk.", "ExtraInfo": "<a href='http://www.joannahuttnerlemoine.portfoliobox.se' target='_blank'>Photographer Joanna Hüttner Lemoine</a>", "Layout": "col-4" }
             ]
         },

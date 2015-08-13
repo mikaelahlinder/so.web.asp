@@ -61,7 +61,7 @@
         @if (isFirst)
         {
             <script type="text/javascript">
-                $(document).ready(function () {
+                $(window).resize(function () {
                     var windowheight = $(window).height();
                     var navbarheight = $('.navbar').height();
                     $(window).scroll(function() {
@@ -74,7 +74,7 @@
                             $('#nav-spacer').css('height', 0);
                         }
                     }).scroll();
-                });
+                }).resize();
             </script>
         }
     </body>
