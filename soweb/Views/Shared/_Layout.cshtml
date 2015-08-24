@@ -61,6 +61,7 @@
         @if (isFirst)
         {
             <script type="text/javascript">
+                $(window).on("orientationchange", function () { $(window).resize(); });
                 $(window).resize(function () {
                     var windowheight = $(window).height();
                     var navbarheight = $('.navbar').height();
