@@ -131,7 +131,7 @@ p, ol, ul {
 }
 
 .font-huge {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .font-medium {
@@ -203,10 +203,11 @@ div#hellotext h4 {
 
 .navbar-custom .logo {
     padding: 0 0 0 20px;
-    font-size: 28px;
-    font-weight: 900;
+    font-size: 18px;
+    margin: 10px 0 0 0;
+    /*font-weight: 900;
     letter-spacing: -4px;
-    font-style: normal;
+    font-style: normal;*/
 }
 
 .navbar-custom .links {

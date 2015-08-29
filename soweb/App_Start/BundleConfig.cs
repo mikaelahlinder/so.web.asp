@@ -16,7 +16,6 @@ namespace Soweb
             var scriptBundle = new ScriptBundle("~/Assets/Scripts/after");
             scriptBundle.Include(
                 "~/Assets/Scripts/Libs/jquery-2.1.3.min.js",
-                "~/Assets/Scripts/Libs/jquery.mobile-1.4.5.min.js",
                 "~/Assets/Scripts/Libs/bootstrap.min.js",
                 "~/Assets/Scripts/Libs/imagesloaded.pkgd.js",
                 "~/Assets/Scripts/Libs/masonry.pkgd.min.js",

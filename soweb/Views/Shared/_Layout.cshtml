@@ -39,9 +39,10 @@
         <div class="wrapper">
             <nav class="navbar navbar-custom fixed">
                 <div class="logo pull-left">
-                    <a href="/">SO</a>
+                    @*<a href="/">home</a>*@
                 </div>
                 <div class="links pull-right">
+                    <a href="/">home</a>
                     <a href="/piccies">piccies</a>
                     <a href="/illos">illo's</a>
                     <a href="/instagram">insta</a>
@@ -61,7 +62,6 @@
         @if (isFirst)
         {
             <script type="text/javascript">
-                $(window).on("orientationchange", function () { $(window).resize(); });
                 $(window).resize(function () {
                     var windowheight = $(window).height();
                     var navbarheight = $('.navbar').height();
