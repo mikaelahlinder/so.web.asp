@@ -153,8 +153,20 @@ p, ol, ul {
 }
 
 .about {
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 20px;
+}
+
+.about p {
+    line-height: 22.5px;
+}
+
+.instagram-feed h3 {
+    font-size: 16px;
+}
+
+.instagram-feed h4 {
+    font-size: 12px;
 }
 
 /* ------------------------------------------------------------------
@@ -533,7 +545,7 @@ h4.no-bottom-margin {
     }
 
     .font-huge {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     div#hellotext  {
