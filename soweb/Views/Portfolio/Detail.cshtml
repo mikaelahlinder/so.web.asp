@@ -11,7 +11,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-12">
+            <div class="col-sm-8 col-sm-offset-2">
                 <h5 class="font-play font-huge font-uppercase">@Model.Selected.Name</h5>
                 <h4 class="font-serif">@Model.Selected.Description</h4>
                 <div class="font-xsmall font-serif">
@@ -36,7 +36,6 @@
                 {
                     <a href="@Url.Action("Detail", "Portfolio", new { img.Id })">
                         <img src="/Assets/Images/@img.Filename" />
-
                     </a>
                 }
             </div>
